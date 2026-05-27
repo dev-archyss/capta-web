@@ -6,7 +6,7 @@
   <title>CAPTA — Captura. Analiza. Gana.</title>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700;800;900&family=Syne:wght@400;600;700;800&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;0,9..40,800;1,9..40,300;1,9..40,400&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;0,9..40,800;1,9..40,300;1,9..40,400&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@latest/dist/tabler-icons.min.css" />
   <style>
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
@@ -100,7 +100,7 @@
       padding: 16px 48px; max-width: 1200px; margin: 0 auto;
     }
     .logo {
-      font-family: 'Montserrat', sans-serif;
+      font-family: 'Syne', sans-serif;
       font-weight: 800; font-size: 24px;
       color: var(--indigo); letter-spacing: -1px;
       display: flex; align-items: center; gap: 8px;
@@ -144,7 +144,7 @@
 
     /* ── HERO ────────────────────────────────────── */
     #hero {
-      padding: 48px 0 56px;
+      padding: 80px 0 88px;
       position: relative;
     }
     #hero::before {
@@ -169,7 +169,7 @@
       white-space: nowrap;
     }
     .hero-title {
-      font-family: 'Montserrat', sans-serif;
+      font-family: 'Syne', sans-serif;
       font-weight: 800;
       font-size: clamp(40px, 5.2vw, 60px);
       line-height: 1.05; letter-spacing: -2px;
@@ -184,19 +184,19 @@
     }
     .hero-sub {
       font-family: 'DM Mono', monospace;
-      font-size: 13px; color: var(--indigo);
+      font-size: 12px; color: var(--subtle);
       letter-spacing: 2px; text-transform: uppercase;
       margin-bottom: 30px;
     }
-    .hero-sub span { color: var(--purple); margin: 0 8px; }
-    .hero-actions { display: flex; gap: 10px; align-items: center; flex-wrap: wrap; max-width: 540px; }
+    .hero-sub span { color: var(--border-strong); margin: 0 8px; }
+    .hero-actions { display: flex; gap: 12px; align-items: center; flex-wrap: wrap; }
 
     .hero-stats {
       display: flex; gap: 40px; margin-top: 44px;
       padding-top: 32px; border-top: 0.5px solid var(--border);
     }
     .hero-stat-num {
-      font-family: 'Montserrat', sans-serif;
+      font-family: 'Syne', sans-serif;
       font-size: 30px; font-weight: 800;
       color: var(--indigo); line-height: 1; letter-spacing: -1px;
     }
@@ -221,7 +221,7 @@
     .phone-header {
       background: var(--indigo); padding: 16px;
       color: #fff;
-      font-family: 'Montserrat', sans-serif;
+      font-family: 'Syne', sans-serif;
       font-weight: 700; font-size: 13px; letter-spacing: -.3px;
     }
     .phone-header small {
@@ -258,7 +258,7 @@
       background: var(--indigo); color: #fff; border: none;
       width: 100%; padding: 9px; border-radius: 7px;
       font-size: 11px; font-weight: 700; cursor: pointer;
-      font-family: 'Montserrat', sans-serif;
+      font-family: 'Syne', sans-serif;
     }
 
     /* Floating cards */
@@ -282,22 +282,22 @@
     .fc-success span { font-size: 11px; font-weight: 500; white-space: nowrap; color: var(--text); }
     .fc-stat { bottom: 28px; left: -44px; }
     .fc-num {
-      font-family: 'Montserrat', sans-serif; font-weight: 800;
+      font-family: 'Syne', sans-serif; font-weight: 800;
       font-size: 22px; color: var(--indigo); letter-spacing: -.5px;
     }
     .fc-stat small { font-size: 10px; color: var(--muted); display: block; }
 
     /* ── SECTION COMMONS ─────────────────────────── */
-    section { padding: 60px 0; }
+    section { padding: 80px 0; }
     .section-inner { max-width: 1200px; margin: 0 auto; padding: 0 48px; }
     .section-label {
-      font-size: 16px; font-weight: 700; color: var(--indigo);
-      letter-spacing: 2.5px; text-transform: uppercase;
-      margin-bottom: 18px;
+      font-size: 11px; font-weight: 700; color: var(--indigo);
+      letter-spacing: 2px; text-transform: uppercase;
+      margin-bottom: 12px;
       display: inline-block;
     }
     .section-title {
-      font-family: 'Montserrat', sans-serif;
+      font-family: 'Syne', sans-serif;
       font-weight: 800; font-size: clamp(32px, 3.4vw, 42px);
       letter-spacing: -1.5px; margin-bottom: 16px; line-height: 1.1;
       color: var(--text);
@@ -324,7 +324,7 @@
     }
     .stat-item { text-align: center; }
     .stat-num {
-      font-family: 'Montserrat', sans-serif; font-weight: 800;
+      font-family: 'Syne', sans-serif; font-weight: 800;
       font-size: 36px; color: var(--indigo);
       letter-spacing: -1px; line-height: 1;
     }
@@ -359,13 +359,13 @@
     }
     .que-es-card.accent .card-icon-wrap { background: rgba(255,255,255,.18); color: #fff; }
     .card-num {
-      font-family: 'Montserrat', sans-serif;
+      font-family: 'Syne', sans-serif;
       font-size: 38px; font-weight: 800;
       line-height: 1; letter-spacing: -1.5px;
       margin-bottom: 8px;
     }
     .card-title {
-      font-family: 'Montserrat', sans-serif; font-weight: 700;
+      font-family: 'Syne', sans-serif; font-weight: 700;
       font-size: 15px; color: var(--text); margin-bottom: 6px;
       letter-spacing: -.3px;
     }
@@ -399,7 +399,7 @@
       color: var(--feature-color, var(--indigo));
     }
     .feature-title {
-      font-family: 'Montserrat', sans-serif; font-weight: 700;
+      font-family: 'Syne', sans-serif; font-weight: 700;
       font-size: 17px; color: var(--text); margin-bottom: 8px;
       letter-spacing: -.3px;
     }
@@ -427,9 +427,9 @@
     }
     .step-card:hover { border-color: var(--border-strong); box-shadow: 0 6px 24px rgba(79,70,229,.08); }
     .step-num {
-      font-family: 'Montserrat', sans-serif; font-weight: 800;
-      font-size: 22px; color: var(--indigo);
-      letter-spacing: -.5px; margin-bottom: 18px;
+      font-family: 'Syne', sans-serif; font-weight: 700;
+      font-size: 11px; color: var(--indigo);
+      letter-spacing: 1.5px; margin-bottom: 14px;
     }
     .step-icon {
       width: 44px; height: 44px; border-radius: 11px;
@@ -438,7 +438,7 @@
       margin-bottom: 16px; font-size: 22px;
     }
     .step-title {
-      font-family: 'Montserrat', sans-serif; font-weight: 700;
+      font-family: 'Syne', sans-serif; font-weight: 700;
       font-size: 17px; color: var(--text); margin-bottom: 8px;
       letter-spacing: -.3px;
     }
@@ -484,15 +484,15 @@
     .screen-label {
       text-align: center; font-size: 12px; font-weight: 600;
       color: var(--muted); margin-top: 12px;
-      font-family: 'Montserrat', sans-serif;
+      font-family: 'Syne', sans-serif;
     }
 
     /* mini UI inside screens */
     .mini-header { background: rgba(255,255,255,0.1); padding: 10px 12px 8px; display: flex; justify-content: space-between; align-items: center; }
-    .mini-brand { font-family: 'Montserrat', sans-serif; font-size: 13px; font-weight: 800; color: #fff; }
+    .mini-brand { font-family: 'Syne', sans-serif; font-size: 13px; font-weight: 800; color: #fff; }
     .mini-badge { font-size: 9px; background: rgba(16,185,129,0.3); color: #34d399; padding: 2px 8px; border-radius: 100px; font-weight: 700; }
     .mini-body { padding: 10px; }
-    .mini-title { font-family: 'Montserrat', sans-serif; font-size: 12px; font-weight: 700; color: #fff; margin-bottom: 8px; }
+    .mini-title { font-family: 'Syne', sans-serif; font-size: 12px; font-weight: 700; color: #fff; margin-bottom: 8px; }
     .mini-chips { display: flex; gap: 5px; flex-wrap: wrap; margin-bottom: 8px; }
     .mini-chip { font-size: 8px; background: rgba(255,255,255,0.12); color: rgba(255,255,255,0.7); padding: 3px 7px; border-radius: 100px; font-weight: 600; }
     .mini-chip.sel { background: var(--indigo); color: #fff; }
@@ -518,7 +518,7 @@
     .mini-photo-area { background: rgba(255,255,255,0.07); border-radius: 8px; height: 48px; display: flex; align-items: center; justify-content: center; margin-top: 6px; }
     .mini-photo-icon { font-size: 18px; }
     .mini-splash { background: linear-gradient(135deg, var(--indigo-dark), var(--indigo-deep)); padding: 30px 16px; text-align: center; }
-    .mini-splash-logo { font-family: 'Montserrat', sans-serif; font-size: 24px; font-weight: 800; color: #fff; letter-spacing: -.5px; margin-bottom: 6px; }
+    .mini-splash-logo { font-family: 'Syne', sans-serif; font-size: 24px; font-weight: 800; color: #fff; letter-spacing: -.5px; margin-bottom: 6px; }
     .mini-splash-tag { font-size: 9px; color: rgba(255,255,255,0.6); letter-spacing: 1px; }
     .mini-bars { display: flex; align-items: flex-end; gap: 6px; justify-content: center; margin-bottom: 12px; }
     .mini-bar { width: 10px; border-radius: 2px; background: rgba(255,255,255,0.7); }
@@ -545,10 +545,10 @@
       width: 42px; height: 42px; border-radius: 50%;
       background: var(--indigo); color: #fff;
       display: flex; align-items: center; justify-content: center;
-      font-family: 'Montserrat', sans-serif;
+      font-family: 'Syne', sans-serif;
       font-size: 14px; font-weight: 700; flex-shrink: 0;
     }
-    .author-name { font-family: 'Montserrat', sans-serif; font-size: 14px; font-weight: 700; color: var(--text); }
+    .author-name { font-family: 'Syne', sans-serif; font-size: 14px; font-weight: 700; color: var(--text); }
     .author-role { font-size: 12px; color: var(--muted); margin-top: 2px; font-weight: 300; }
 
     /* ── DEMO / CTA ──────────────────────────────── */
@@ -584,7 +584,7 @@
     }
     .cta-left .section-label { color: var(--purple-light); background: rgba(255,255,255,.1); padding: 5px 12px; border-radius: 100px; }
     .cta-left h2 {
-      font-family: 'Montserrat', sans-serif;
+      font-family: 'Syne', sans-serif;
       font-weight: 800;
       font-size: clamp(30px, 3.2vw, 40px);
       color: #fff; letter-spacing: -1.2px;
@@ -622,7 +622,7 @@
       border-radius: 9px;
       background: #fff; color: var(--indigo);
       font-size: 15px; font-weight: 700;
-      font-family: 'Montserrat', sans-serif;
+      font-family: 'Syne', sans-serif;
       border: none; cursor: pointer;
       transition: transform .2s, box-shadow .2s;
       margin-top: 4px;
@@ -642,7 +642,7 @@
       background: rgba(255,255,255,.95); border-radius: 50%;
       display: flex; align-items: center; justify-content: center;
     }
-    .form-success h3 { font-family: 'Montserrat', sans-serif; font-size: 20px; font-weight: 700; color: #fff; margin-bottom: 6px; }
+    .form-success h3 { font-family: 'Syne', sans-serif; font-size: 20px; font-weight: 700; color: #fff; margin-bottom: 6px; }
     .form-success p { font-size: 14px; color: rgba(255,255,255,.7); font-weight: 300; }
 
     /* ── FOOTER ──────────────────────────────────── */
@@ -658,7 +658,7 @@
       flex-wrap: wrap; gap: 20px;
     }
     .footer-logo {
-      font-family: 'Montserrat', sans-serif; font-weight: 800;
+      font-family: 'Syne', sans-serif; font-weight: 800;
       font-size: 20px; color: var(--indigo);
       display: flex; align-items: center; gap: 8px;
       letter-spacing: -.5px;
@@ -801,7 +801,7 @@
       letter-spacing: 3px;
       margin-bottom: 2px;
     }
-    .app-linea-name { font-family: 'Montserrat', sans-serif; font-size: 13px; font-weight: 800; color: #fff; letter-spacing: -.3px; }
+    .app-linea-name { font-family: 'Syne', sans-serif; font-size: 13px; font-weight: 800; color: #fff; letter-spacing: -.3px; }
     .app-promotor { font-size: 10px; color: rgba(255,255,255,0.7); margin-top: 1px; }
     .app-badge-progreso {
       background: #FEF3C7; color: #92400E;
@@ -811,7 +811,7 @@
       white-space: nowrap;
     }
     .app-page-title {
-      font-family: 'Montserrat', sans-serif;
+      font-family: 'Syne', sans-serif;
       font-size: 15px; font-weight: 800;
       color: #fff; text-align: center;
       margin-bottom: 10px;
@@ -879,7 +879,7 @@
       border-radius: 12px;
       padding: 12px;
       text-align: center;
-      font-family: 'Montserrat', sans-serif;
+      font-family: 'Syne', sans-serif;
       font-size: 12px; font-weight: 800;
       color: #fff;
       margin-top: 4px;
@@ -939,7 +939,7 @@
       margin-top: 6px;
     }
     .app-resumen-caras-txt { font-size: 10px; color: #15803D; font-weight: 600; }
-    .app-resumen-caras-num { font-size: 13px; font-weight: 800; color: #059669; font-family: 'Montserrat', sans-serif; }
+    .app-resumen-caras-num { font-size: 13px; font-weight: 800; color: #059669; font-family: 'Syne', sans-serif; }
 
     .app-total-caras-box {
       background: #ECFDF5;
@@ -950,7 +950,7 @@
       margin-bottom: 10px;
     }
     .app-total-caras-label { font-size: 10px; font-weight: 700; color: #065F46; margin-bottom: 4px; }
-    .app-total-caras-val { font-size: 36px; font-weight: 900; color: #059669; font-family: 'Montserrat', sans-serif; line-height: 1; }
+    .app-total-caras-val { font-size: 36px; font-weight: 900; color: #059669; font-family: 'Syne', sans-serif; line-height: 1; }
     .app-total-caras-detalle { font-size: 10px; color: #6B7280; margin-top: 4px; }
 
     /* Espacio cards */
@@ -1001,7 +1001,7 @@
     .app-linea-card.premium .app-linea-card-lbl { color: #A5B4FC; }
     .app-linea-card.economica .app-linea-card-lbl { color: #C4B5FD; }
     .app-linea-card.institucional .app-linea-card-lbl { color: #93C5FD; }
-    .app-linea-card-name { font-family: 'Montserrat', sans-serif; font-size: 17px; font-weight: 800; color: #fff; margin-top: 4px; letter-spacing: -.3px; }
+    .app-linea-card-name { font-family: 'Syne', sans-serif; font-size: 17px; font-weight: 800; color: #fff; margin-top: 4px; letter-spacing: -.3px; }
     .app-linea-card-cta { font-size: 10px; color: rgba(255,255,255,0.65); margin-top: 4px; }
 
     /* Splash / Inicio */
@@ -1013,7 +1013,7 @@
     .app-splash-bars { display: flex; align-items: flex-end; gap: 7px; margin-bottom: 20px; }
     .app-splash-bar { width: 11px; border-radius: 2.5px; background: rgba(255,255,255,0.8); }
     .app-splash-logo {
-      font-family: 'Montserrat', sans-serif;
+      font-family: 'Syne', sans-serif;
       font-size: 38px; font-weight: 800;
       color: #fff;
       letter-spacing: -1px;
@@ -1034,7 +1034,7 @@
     .app-splash-greet {
       margin-top: 30px;
       font-size: 13px; color: #fff;
-      font-family: 'Montserrat', sans-serif; font-weight: 700;
+      font-family: 'Syne', sans-serif; font-weight: 700;
     }
     .app-splash-greet-sub {
       font-size: 10px; color: rgba(255,255,255,0.55);
@@ -1073,7 +1073,7 @@
       border-radius: 12px;
       padding: 13px;
       text-align: center;
-      font-family: 'Montserrat', sans-serif;
+      font-family: 'Syne', sans-serif;
       font-size: 13px; font-weight: 800;
       color: #fff;
       box-shadow: 0 6px 16px rgba(79,70,229,0.4);
@@ -1138,7 +1138,7 @@
     .app-carousel-slide.adjacent { opacity: 0.65; transform: scale(0.92); }
     .app-carousel-label {
       margin-top: 18px;
-      font-family: 'Montserrat', sans-serif;
+      font-family: 'Syne', sans-serif;
       font-size: 13px; font-weight: 700;
       color: var(--text);
       text-align: center;
@@ -1185,54 +1185,7 @@
       .app-screen { height: 540px; }
     }
   
-  
-    /* APP SIMPLE (vista de la app simplificada) */
-    .app-simple { max-width: 1200px; margin: 0 auto; padding: 0 48px; }
-    .app-simple-grid {
-      display: grid; grid-template-columns: minmax(280px, 360px) 1fr;
-      gap: 80px; align-items: center;
-    }
-    .app-simple-phone-wrap { display: flex; justify-content: center; align-items: center; }
-    .app-simple-phone { width: 296px; transform: scale(0.82); transform-origin: center; margin: -56px 0; }
-    .app-simple-phone .app-screen { height: 680px; }
-    .app-simple-phone .app-splash { padding: 24px 8px 8px; }
-    .app-simple-phone .app-splash-greet { margin-top: 22px; }
-    .app-simple-benefits { display: flex; flex-direction: column; gap: 18px; }
-    .benefit-card {
-      display: grid; grid-template-columns: 56px 1fr; gap: 20px;
-      align-items: flex-start;
-      padding: 22px 4px 22px 4px;
-      border-top: 0.5px solid var(--border);
-    }
-    .benefit-card:first-child { border-top: none; padding-top: 4px; }
-    .benefit-icon {
-      width: 48px; height: 48px; border-radius: 12px;
-      background: var(--indigo-soft); color: var(--indigo);
-      display: flex; align-items: center; justify-content: center;
-      font-size: 22px;
-    }
-    .benefit-title {
-      font-family: 'Montserrat', sans-serif;
-      font-weight: 800;
-      font-size: 20px; letter-spacing: -.3px;
-      color: var(--text); margin-bottom: 6px;
-      line-height: 1.25;
-    }
-    .benefit-desc {
-      font-size: 15px; color: var(--muted); line-height: 1.6;
-      font-weight: 300; max-width: 560px;
-    }
-    @media (max-width: 980px) {
-      .app-simple { padding: 0 32px; }
-      .app-simple-grid { grid-template-columns: 1fr; gap: 48px; }
-      .app-simple-phone-wrap { order: -1; }
-    }
-    @media (max-width: 640px) {
-      .app-simple { padding: 0 20px; }
-      .benefit-card { grid-template-columns: 1fr; gap: 12px; }
-    }
-
-</style>
+  </style>
 </head>
 <body>
 
@@ -1264,7 +1217,7 @@
           Plataforma de Trade Marketing
         </div>
         <h1 class="hero-title">
-          Captura precios,<br />gana el <em>ANAQUEL</em>
+          Captura precios,<br />gana el <em>anaquel</em>
         </h1>
         <p class="hero-desc">
           CAPTA equipa a tu fuerza de promotores para registrar visitas, precios de competencia, caras de anaquel y espacios ganados — todo desde el celular, con o sin internet.
@@ -1276,14 +1229,8 @@
           <a href="#demo" class="btn btn-primary btn-lg">
             <i class="ti ti-building-store" aria-hidden="true"></i> Solicitar Demo
           </a>
-          <a href="#features" class="btn btn-secondary btn-lg">
-            <i class="ti ti-apps" aria-hidden="true"></i> Funcionalidades
-          </a>
-          <a href="#dashboard" class="btn btn-secondary btn-lg">
-            <i class="ti ti-layout-dashboard" aria-hidden="true"></i> Plataforma
-          </a>
-          <a href="#pricing" class="btn btn-secondary btn-lg">
-            <i class="ti ti-tag" aria-hidden="true"></i> Precios
+          <a href="#como-funciona" class="btn btn-secondary btn-lg">
+            Ver cómo funciona
           </a>
         </div>
         <div class="hero-stats">
@@ -1303,6 +1250,11 @@
       </div>
 
       <div class="hero-visual">
+        <div class="floating-card fc-success">
+          <div class="fc-icon"><i class="ti ti-check" aria-hidden="true"></i></div>
+          <span>Visita guardada</span>
+        </div>
+
         <div class="app-frame">
           <div class="app-notch"></div>
           <div class="app-screen">
@@ -1536,20 +1488,20 @@
       <div class="steps-grid">
         <div class="step-card reveal reveal-delay-1">
           <div class="step-arrow"><i class="ti ti-arrow-right" aria-hidden="true"></i></div>
-          <div class="step-num">PASO 1</div>
+          <div class="step-num">PASO 01</div>
           <div class="step-icon"><i class="ti ti-user-check" aria-hidden="true"></i></div>
           <div class="step-title">El promotor abre CAPTA</div>
           <div class="step-desc">Selecciona su empresa, elige la línea a trabajar ese día y busca el punto de venta a visitar.</div>
         </div>
         <div class="step-card reveal reveal-delay-2">
           <div class="step-arrow"><i class="ti ti-arrow-right" aria-hidden="true"></i></div>
-          <div class="step-num">PASO 2</div>
+          <div class="step-num">PASO 02</div>
           <div class="step-icon"><i class="ti ti-clipboard-data" aria-hidden="true"></i></div>
           <div class="step-title">Registra la visita</div>
           <div class="step-desc">Toma foto antes, ingresa precios, caras, stock y espacios. Luego toma la foto después de su intervención.</div>
         </div>
         <div class="step-card reveal reveal-delay-3">
-          <div class="step-num">PASO 3</div>
+          <div class="step-num">PASO 03</div>
           <div class="step-icon"><i class="ti ti-cloud-upload" aria-hidden="true"></i></div>
           <div class="step-title">Sincroniza y reporta</div>
           <div class="step-desc">Al guardar, los datos se sincronizan en tiempo real. Sin conexión, se guardan localmente y suben automáticamente.</div>
@@ -1562,730 +1514,1355 @@
   <section id="app-preview">
     <div class="section-header center reveal">
       <span class="section-label">Vista de la App</span>
-      <h2 class="section-title">Lo que tu equipo logra<br />desde el punto de venta</h2>
-      <p class="section-subtitle">No es una herramienta más para el promotor. Es la forma de convertir cada visita en datos accionables y cada anaquel en una decisión informada.</p>
+      <h2 class="section-title">Diseñada para el campo</h2>
+      <p class="section-subtitle">Interfaz clara, rápida y sin complicaciones para el promotor en el punto de venta.</p>
     </div>
-
-    <div class="app-simple reveal">
-      <div class="app-simple-grid">
-        <div class="app-simple-phone-wrap">
-          <div class="app-frame app-simple-phone">
-            <div class="app-notch"></div>
-            <div class="app-screen">
-              <div class="app-status">
-                <span>9:41</span>
-                <span class="app-status-r"><svg viewBox="0 0 18 12" fill="none"><path d="M1 11h2V8H1v3zm4 0h2V5H5v6zm4 0h2V2H9v9zm4 0h2v-5h-2v5zm4 0h2V0h-2v11z" fill="#fff"/></svg></span>
-              </div>
-              <div class="app-content" style="padding:8px 16px 56px;">
-                <div class="app-splash" style="padding:30px 8px 0;height:auto;">
-                  <div class="app-splash-bars">
-                    <div class="app-splash-bar" style="height:22px;opacity:.5;"></div>
-                    <div class="app-splash-bar" style="height:34px;opacity:.75;"></div>
-                    <div class="app-splash-bar" style="height:26px;opacity:.6;"></div>
-                    <div class="app-splash-bar" style="height:42px;"></div>
+    <div class="app-carousel reveal" id="appCarousel">
+      <div class="app-carousel-viewport">
+        <div class="app-carousel-track" id="appCarouselTrack">
+          <div class="app-carousel-slide" data-label="Inicio · Selección de Línea">
+            <div class="app-frame">
+              <div class="app-notch"></div>
+              <div class="app-screen">
+                <div class="app-status"><span>9:41</span><span class="app-status-r"><svg viewBox="0 0 18 12" fill="none"><path d="M1 11h2V8H1v3zm4 0h2V5H5v6zm4 0h2V2H9v9zm4 0h2v-5h-2v5zm4 0h2V0h-2v11z" fill="#fff"/></svg></span></div>
+                <div class="app-content" style="padding:8px 16px 56px;">
+                  <div class="app-splash" style="padding:30px 8px 0;height:auto;">
+                    <div class="app-splash-bars">
+                      <div class="app-splash-bar" style="height:22px;opacity:.5;"></div>
+                      <div class="app-splash-bar" style="height:34px;opacity:.75;"></div>
+                      <div class="app-splash-bar" style="height:26px;opacity:.6;"></div>
+                      <div class="app-splash-bar" style="height:42px;"></div>
+                    </div>
+                    <div class="app-splash-logo"><span class="app-splash-dot"></span>capta</div>
+                    <div class="app-splash-tag">Captura · Analiza · Gana</div>
+                    <div class="app-splash-greet">¡Hola, Carlos! 👋</div>
+                    <div class="app-splash-greet-sub">¿Con qué línea trabajas hoy?</div>
                   </div>
-                  <div class="app-splash-logo"><span class="app-splash-dot"></span>capta</div>
-                  <div class="app-splash-tag">Captura · Analiza · Gana</div>
-                  <div class="app-splash-greet">¡Hola, Carlos! 👋</div>
-                  <div class="app-splash-greet-sub">¿Con qué línea trabajas hoy?</div>
-                </div>
-                <div style="margin-top:24px;">
-                  <div class="app-linea-card premium">
-                    <div class="app-linea-card-lbl">LÍNEA</div>
-                    <div class="app-linea-card-name">Premium</div>
-                    <div class="app-linea-card-cta">Iniciar visita →</div>
-                  </div>
-                  <div class="app-linea-card economica">
-                    <div class="app-linea-card-lbl">LÍNEA</div>
-                    <div class="app-linea-card-name">Económica</div>
-                    <div class="app-linea-card-cta">Iniciar visita →</div>
-                  </div>
-                  <div class="app-linea-card institucional">
-                    <div class="app-linea-card-lbl">LÍNEA</div>
-                    <div class="app-linea-card-name">Institucional</div>
-                    <div class="app-linea-card-cta">Iniciar visita →</div>
+                  <div style="margin-top:24px;">
+                    <div class="app-linea-card premium">
+                      <div class="app-linea-card-lbl">LÍNEA</div>
+                      <div class="app-linea-card-name">Premium</div>
+                      <div class="app-linea-card-cta">Iniciar visita →</div>
+                    </div>
+                    <div class="app-linea-card economica">
+                      <div class="app-linea-card-lbl">LÍNEA</div>
+                      <div class="app-linea-card-name">Económica</div>
+                      <div class="app-linea-card-cta">Iniciar visita →</div>
+                    </div>
+                    <div class="app-linea-card institucional">
+                      <div class="app-linea-card-lbl">LÍNEA</div>
+                      <div class="app-linea-card-name">Institucional</div>
+                      <div class="app-linea-card-cta">Iniciar visita →</div>
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
+            <div class="app-carousel-label">Inicio<small>Selección de Línea</small></div>
+          </div>
+          <div class="app-carousel-slide" data-label="Ingreso de Precios">
+            <div class="app-frame">
+              <div class="app-notch"></div>
+              <div class="app-screen">
+                <div class="app-status"><span>9:41</span><span class="app-status-r"><svg viewBox="0 0 18 12" fill="none"><path d="M1 11h2V8H1v3zm4 0h2V5H5v6zm4 0h2V2H9v9zm4 0h2v-5h-2v5zm4 0h2V0h-2v11z" fill="#fff"/></svg></span></div>
+                <div class="app-content">
+                  <div class="app-header-card">
+                    <div>
+                      <div class="app-brand-small">CAPTA</div>
+                      <div class="app-linea-name">Premium</div>
+                      <div class="app-promotor">Carlos Méndez</div>
+                    </div>
+                    <div class="app-badge-progreso">🔄 En progreso</div>
+                  </div>
+                  <div class="app-page-title">Ingreso de Precios</div>
+                  <div class="app-card">
+                    <div class="app-label">Estado</div>
+                    <div class="app-chips">
+                      <div class="app-chip sel">Zulia</div>
+                      <div class="app-chip">Miranda</div>
+                      <div class="app-chip">Carabobo</div>
+                    </div>
+                    <div class="app-label">Comercio</div>
+                    <div class="app-input"><i class="ti ti-search" style="font-size:11px;color:#9CA3AF;"></i> Supermercado Central</div>
+                    <div class="app-metros-box">
+                      <div class="app-metros-label"><i class="ti ti-ruler" aria-hidden="true"></i> Metros del Anaquel</div>
+                      <div class="app-input" style="background:#fff;font-weight:700;color:#1E3A8A;">3.5 m</div>
+                    </div>
+                  </div>
+                  <div class="app-card">
+                    <div class="app-section-title"><i class="ti ti-camera" style="font-size:12px;color:#4F46E5;"></i> Fotos Antes</div>
+                    <div class="app-section-sub">Mínimo 1 foto del anaquel</div>
+                    <div class="app-photo-row">
+                      <div class="app-photo-btn">
+                        <div class="app-photo-btn-icon"><i class="ti ti-camera" style="color:#4F46E5;"></i></div>
+                        <div class="app-photo-btn-text">Cámara</div>
+                      </div>
+                      <div class="app-photo-btn galeria">
+                        <div class="app-photo-btn-icon"><i class="ti ti-photo" style="color:#7C3AED;"></i></div>
+                        <div class="app-photo-btn-text" style="color:#7C3AED;">Galería</div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="app-btn-continuar">Continuar →</div>
+                </div>
+                <div class="app-bottombar">
+                  <div class="app-bottombar-btn"><i class="ti ti-stack-2 app-bottombar-icon"></i><span class="app-bottombar-text">Línea</span></div>
+                  <div class="app-bottombar-line"></div>
+                  <div class="app-bottombar-btn"><i class="ti ti-trash app-bottombar-icon"></i><span class="app-bottombar-text">Limpiar</span></div>
+                  <div class="app-bottombar-line"></div>
+                  <div class="app-bottombar-btn"><i class="ti ti-logout app-bottombar-icon"></i><span class="app-bottombar-text">Salir</span></div>
+                </div>
+              </div>
+            </div>
+            <div class="app-carousel-label">Ingreso de Precios<small>Formulario inicial</small></div>
+          </div>
+          <div class="app-carousel-slide" data-label="Nuestros Precios y Caras">
+            <div class="app-frame">
+              <div class="app-notch"></div>
+              <div class="app-screen">
+                <div class="app-status"><span>9:41</span><span class="app-status-r"><svg viewBox="0 0 18 12" fill="none"><path d="M1 11h2V8H1v3zm4 0h2V5H5v6zm4 0h2V2H9v9zm4 0h2v-5h-2v5zm4 0h2V0h-2v11z" fill="#fff"/></svg></span></div>
+                <div class="app-content">
+                  <div class="app-page-title" style="font-size:13px;">Nuestros Productos</div>
+                  <div class="app-seccion verde">
+                    <div class="app-seccion-titulo">🟢 Nuestros Precios y Caras</div>
+                    <div class="app-item-row">
+                      <div class="app-label" style="margin-top:0;font-size:9px;color:#6B7280;">Presentación</div>
+                      <div class="app-presentation-sel">
+                        <span>Premium 500g</span>
+                        <span style="color:#9CA3AF;font-size:9px;">▼</span>
+                      </div>
+                      <div class="app-precio-row">
+                        <div class="app-precio-input">12.50</div>
+                        <div class="app-moneda-group">
+                          <div class="app-moneda-btn verde">BS</div>
+                          <div class="app-moneda-btn">$</div>
+                        </div>
+                      </div>
+                      <div class="app-stock-row">
+                        <div class="app-stock-cell">
+                          <div class="app-stock-cell-label">Stock Anaquel</div>
+                          <div class="app-stock-cell-input">24</div>
+                        </div>
+                        <div class="app-stock-cell">
+                          <div class="app-stock-cell-label">Stock Bodega</div>
+                          <div class="app-stock-cell-input">48</div>
+                        </div>
+                      </div>
+                      <div class="app-stock-row" style="margin-top:5px;">
+                        <div class="app-stock-cell">
+                          <div class="app-stock-cell-label">Caras Antes</div>
+                          <div class="app-stock-cell-input" style="color:#C2410C;">8</div>
+                        </div>
+                        <div class="app-stock-cell">
+                          <div class="app-stock-cell-label">Caras Después</div>
+                          <div class="app-stock-cell-input" style="color:#059669;">12</div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="app-resumen-caras">
+                      <div class="app-resumen-caras-txt">Caras antes: <span class="app-resumen-caras-num">8</span> &nbsp; · después: <span class="app-resumen-caras-num">12</span></div>
+                      <div class="app-resumen-caras-txt" style="margin-top:3px;">Metros: <span class="app-resumen-caras-num">1.4m</span> · <span class="app-resumen-caras-num">40%</span> del anaquel</div>
+                    </div>
+                  </div>
+                  <div class="app-seccion naranja" style="padding:8px;">
+                    <div class="app-seccion-titulo" style="font-size:10px;">🟠 Competencia</div>
+                    <div class="app-item-row" style="padding:7px;">
+                      <div class="app-presentation-sel naranja" style="font-size:9.5px;padding:5px 8px;">
+                        <span>Comp 450g</span>
+                        <span style="font-size:9px;">▼</span>
+                      </div>
+                      <div class="app-precio-row" style="margin-bottom:3px;">
+                        <div class="app-precio-input">11.00</div>
+                        <div class="app-moneda-group">
+                          <div class="app-moneda-btn naranja">BS</div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="app-fab">
+                  <i class="ti ti-map-2 app-fab-icon"></i>
+                  <span class="app-fab-text">Planograma</span>
+                </div>
+                <div class="app-bottombar">
+                  <div class="app-bottombar-btn"><i class="ti ti-stack-2 app-bottombar-icon"></i><span class="app-bottombar-text">Línea</span></div>
+                  <div class="app-bottombar-line"></div>
+                  <div class="app-bottombar-btn"><i class="ti ti-trash app-bottombar-icon"></i><span class="app-bottombar-text">Limpiar</span></div>
+                  <div class="app-bottombar-line"></div>
+                  <div class="app-bottombar-btn"><i class="ti ti-logout app-bottombar-icon"></i><span class="app-bottombar-text">Salir</span></div>
+                </div>
+              </div>
+            </div>
+            <div class="app-carousel-label">Precios y Caras<small>Sección verde + competencia</small></div>
+          </div>
+          <div class="app-carousel-slide" data-label="Espacios Adicionales">
+            <div class="app-frame">
+              <div class="app-notch"></div>
+              <div class="app-screen">
+                <div class="app-status"><span>9:41</span><span class="app-status-r"><svg viewBox="0 0 18 12" fill="none"><path d="M1 11h2V8H1v3zm4 0h2V5H5v6zm4 0h2V2H9v9zm4 0h2v-5h-2v5zm4 0h2V0h-2v11z" fill="#fff"/></svg></span></div>
+                <div class="app-content">
+                  <div class="app-total-caras-box">
+                    <div class="app-total-caras-label">Caras Totales Después</div>
+                    <div class="app-total-caras-val">28</div>
+                    <div class="app-total-caras-detalle">Nuestras: 12 + Competencia: 16</div>
+                  </div>
+                  <div class="app-seccion morado">
+                    <div class="app-seccion-titulo">🏪 Espacios Adicionales</div>
+                    <div class="app-espacio-card">
+                      <div class="app-espacio-left">
+                        <span class="app-espacio-icon">🗼</span>
+                        <div>
+                          <div class="app-espacio-tipo">Torre</div>
+                          <div class="app-espacio-prod">• Premium 500g</div>
+                          <div class="app-espacio-prod">• Económica 250g</div>
+                          <div class="app-espacio-cap">Cap: 20 unid. · Desde 2026-03-01</div>
+                        </div>
+                      </div>
+                      <div class="app-espacio-toggle">✓ Activo</div>
+                    </div>
+                    <div class="app-espacio-card cabezal">
+                      <div class="app-espacio-left">
+                        <span class="app-espacio-icon">📐</span>
+                        <div>
+                          <div class="app-espacio-tipo">Cabezal</div>
+                          <div class="app-espacio-prod">• Premium 500g</div>
+                          <div class="app-espacio-cap">Cap: 12 unid.</div>
+                        </div>
+                      </div>
+                      <div class="app-espacio-toggle">✓ Activo</div>
+                    </div>
+                    <div class="app-espacio-card paleta">
+                      <div class="app-espacio-left">
+                        <span class="app-espacio-icon">🪵</span>
+                        <div>
+                          <div class="app-espacio-tipo">Paleta</div>
+                          <div class="app-espacio-prod">• Económica 1kg</div>
+                        </div>
+                      </div>
+                      <div class="app-espacio-toggle off">✗ Inactivo</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="app-bottombar">
+                  <div class="app-bottombar-btn"><i class="ti ti-stack-2 app-bottombar-icon"></i><span class="app-bottombar-text">Línea</span></div>
+                  <div class="app-bottombar-line"></div>
+                  <div class="app-bottombar-btn"><i class="ti ti-trash app-bottombar-icon"></i><span class="app-bottombar-text">Limpiar</span></div>
+                  <div class="app-bottombar-line"></div>
+                  <div class="app-bottombar-btn"><i class="ti ti-logout app-bottombar-icon"></i><span class="app-bottombar-text">Salir</span></div>
+                </div>
+              </div>
+            </div>
+            <div class="app-carousel-label">Espacios Adicionales<small>Torres · Cabezales · Paletas</small></div>
+          </div>
+          <div class="app-carousel-slide" data-label="Guardar Visita">
+            <div class="app-frame">
+              <div class="app-notch"></div>
+              <div class="app-screen">
+                <div class="app-status"><span>9:41</span><span class="app-status-r"><svg viewBox="0 0 18 12" fill="none"><path d="M1 11h2V8H1v3zm4 0h2V5H5v6zm4 0h2V2H9v9zm4 0h2v-5h-2v5zm4 0h2V0h-2v11z" fill="#fff"/></svg></span></div>
+                <div class="app-content">
+                  <div class="app-card">
+                    <div class="app-section-title"><i class="ti ti-camera" style="color:#4F46E5;"></i> Fotos Después</div>
+                    <div class="app-section-sub">Mínimo 1 foto después de intervenir</div>
+                    <div class="app-photo-row">
+                      <div class="app-photo-btn">
+                        <div class="app-photo-btn-icon"><i class="ti ti-camera" style="color:#4F46E5;"></i></div>
+                        <div class="app-photo-btn-text">Cámara</div>
+                      </div>
+                      <div class="app-photo-btn galeria">
+                        <div class="app-photo-btn-icon"><i class="ti ti-photo" style="color:#7C3AED;"></i></div>
+                        <div class="app-photo-btn-text" style="color:#7C3AED;">Galería</div>
+                      </div>
+                    </div>
+                    <div class="app-photo-thumbs">
+                      <div class="app-photo-thumb"><i class="ti ti-photo" style="color:#4F46E5;font-size:18px;"></i></div>
+                      <div class="app-photo-thumb" style="background:linear-gradient(135deg,#FEF3C7,#FED7AA);"><i class="ti ti-photo" style="color:#EA580C;font-size:18px;"></i></div>
+                      <div class="app-photo-thumb" style="background:linear-gradient(135deg,#D1FAE5,#A7F3D0);"><i class="ti ti-photo" style="color:#059669;font-size:18px;"></i></div>
+                    </div>
+                  </div>
+                  <div class="app-card">
+                    <div class="app-section-title" style="margin-bottom:4px;">Comentarios <span style="font-weight:400;color:#9CA3AF;">(opcional)</span></div>
+                    <div class="app-input placeholder" style="min-height:50px;align-items:flex-start;padding:8px 10px;">Describe alguna situación...</div>
+                  </div>
+                  <div class="app-success-banner">
+                    <div class="app-success-icon">✓</div>
+                    <div class="app-success-text">Visita lista para guardar</div>
+                  </div>
+                  <div class="app-btn-guardar"><i class="ti ti-device-floppy"></i> Guardar Visita</div>
+                </div>
+                <div class="app-bottombar">
+                  <div class="app-bottombar-btn"><i class="ti ti-stack-2 app-bottombar-icon"></i><span class="app-bottombar-text">Línea</span></div>
+                  <div class="app-bottombar-line"></div>
+                  <div class="app-bottombar-btn"><i class="ti ti-trash app-bottombar-icon"></i><span class="app-bottombar-text">Limpiar</span></div>
+                  <div class="app-bottombar-line"></div>
+                  <div class="app-bottombar-btn"><i class="ti ti-logout app-bottombar-icon"></i><span class="app-bottombar-text">Salir</span></div>
+                </div>
+              </div>
+            </div>
+            <div class="app-carousel-label">Guardar Visita<small>Fotos después + comentarios</small></div>
           </div>
         </div>
-
-        <div class="app-simple-benefits">
-          <div class="benefit-card reveal reveal-delay-1">
-            <div class="benefit-icon"><i class="ti ti-clock-bolt" aria-hidden="true"></i></div>
-            <div>
-              <h3 class="benefit-title">Visitas más cortas, mejor calidad</h3>
-              <p class="benefit-desc">El promotor dedica menos tiempo a llenar formularios y más a estar frente al anaquel. La data llega completa y consistente, sin reprocesos.</p>
-            </div>
-          </div>
-          <div class="benefit-card reveal reveal-delay-2">
-            <div class="benefit-icon"><i class="ti ti-shield-check" aria-hidden="true"></i></div>
-            <div>
-              <h3 class="benefit-title">Trazabilidad real de la jornada</h3>
-              <p class="benefit-desc">Cada visita queda firmada con foto y ubicación. Sabes dónde estuvo tu equipo, cuánto duró cada parada y qué intervino — sin micromanagement.</p>
-            </div>
-          </div>
-          <div class="benefit-card reveal reveal-delay-3">
-            <div class="benefit-icon"><i class="ti ti-wifi-off" aria-hidden="true"></i></div>
-            <div>
-              <h3 class="benefit-title">Cero dependencia de la señal</h3>
-              <p class="benefit-desc">Mercados sin cobertura, sótanos, zonas rurales: la captura nunca se detiene. La información sincroniza al volver a línea sin perderse un solo dato.</p>
-            </div>
-          </div>
-          <div class="benefit-card reveal reveal-delay-4">
-            <div class="benefit-icon"><i class="ti ti-target-arrow" aria-hidden="true"></i></div>
-            <div>
-              <h3 class="benefit-title">Decisiones con base, no intuición</h3>
-              <p class="benefit-desc">Cada captura alimenta la plataforma web en tiempo real. Marketing, ventas y trade trabajan sobre la misma foto del mercado.</p>
-            </div>
-          </div>
-        </div>
+      </div>
+      <div class="carousel-controls">
+        <button class="carousel-arrow" id="carouselPrev" aria-label="Anterior">
+          <i class="ti ti-chevron-left" aria-hidden="true"></i>
+        </button>
+        <div class="carousel-dots" id="carouselDots"></div>
+        <button class="carousel-arrow" id="carouselNext" aria-label="Siguiente">
+          <i class="ti ti-chevron-right" aria-hidden="true"></i>
+        </button>
       </div>
     </div>
   </section>
 
   <!-- DASHBOARD / ANALYTICS -->
-  <section id="dashboard" style="background:#f0f2f8; padding-top:80px; padding-bottom:80px;">
+  <section id="dashboard" style="background:#f0f2f8; padding-top:100px; padding-bottom:100px;">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.3/dist/chart.umd.min.js"></script>
     <style>
-      .dash-c-section { max-width: 1200px; margin: 0 auto; padding: 0 5%; }
-      .dash-c-header { text-align: center; margin-bottom: 36px; }
-      .dash-c-sup {
-        display:inline-block; font-size:15px; font-weight:700; letter-spacing:2.5px;
+      @import url('https://fonts.googleapis.com/css2?family=Syne:wght@600;700;800&display=swap');
+      .db2-section { max-width:1200px; margin:0 auto; padding:0 5%; }
+      .db2-header { text-align:center; margin-bottom:48px; }
+      .db2-sup { display:inline-block; font-size:11px; font-weight:700; letter-spacing:2.5px;
         text-transform:uppercase; color:#4f46e5; background:rgba(79,70,229,.1);
-        padding:8px 18px; border-radius:100px; margin-bottom:22px;
-      }
-      .dash-c-h2 {
-        font-family:'Montserrat',sans-serif;
-        font-size:clamp(36px, 4vw, 60px);
-        font-weight:800; letter-spacing:-1px; line-height:1.05;
-        color:#111827; margin-bottom:14px;
-      }
-      .dash-c-sub { font-size:17px; color:#6b7280; line-height:1.65; max-width:620px; margin:0 auto; }
-
-      /* Carousel */
-      .dash-c-wrap { position: relative; margin-top: 24px; }
-      .dash-c-viewport {
-        overflow: hidden;
-        mask-image: linear-gradient(to right, transparent 0, #000 6%, #000 94%, transparent 100%);
-        -webkit-mask-image: linear-gradient(to right, transparent 0, #000 6%, #000 94%, transparent 100%);
-      }
-      .dash-c-track {
-        display: flex; gap: 28px;
-        transition: transform 0.55s cubic-bezier(.4,0,.2,1);
-        padding: 16px 0 8px;
-        align-items: stretch;
-        will-change: transform;
-      }
-      .dash-c-slide {
-        flex-shrink: 0;
-        width: 920px;
-        opacity: .55;
-        transform: scale(0.96);
-        transition: opacity .4s ease, transform .4s ease;
-      }
-      .dash-c-slide.active { opacity: 1; transform: scale(1); }
-
-      /* Mock window */
-      .dash-c-window {
-        background:#fff; border-radius:18px; border:1px solid rgba(0,0,0,.07);
-        box-shadow:0 8px 40px rgba(0,0,0,.10);
-        overflow:hidden;
-        min-height: 460px;
-        display: flex; flex-direction: column;
-      }
-      .dash-c-titlebar {
-        background:#f8f9fb; border-bottom:1px solid rgba(0,0,0,.07);
-        padding:12px 16px; display:flex; align-items:center; gap:10px;
-      }
-      .dash-c-dots { display:flex; gap:5px; }
-      .dash-c-dot { width:10px; height:10px; border-radius:50%; }
-      .dash-c-dot.r{background:#ef4444;} .dash-c-dot.y{background:#f59e0b;} .dash-c-dot.g{background:#10b981;}
-      .dash-c-tb-name { font-size:13px; font-weight:700; color:#6b7280; font-family:'Montserrat',sans-serif; margin-left:4px; }
-      .dash-c-tb-url { font-size:11px; color:#9ca3af; margin-left:auto; font-family:'DM Mono',monospace; }
-
-      .dash-c-nav {
-        background:#fff; border-bottom:1px solid rgba(0,0,0,.07);
-        padding:0 22px; height:54px; display:flex; align-items:center; gap:6px;
-      }
-      .dash-c-nav-logo { display:flex; align-items:center; gap:10px; margin-right:20px; }
-      .dash-c-nav-icon {
-        width:30px; height:30px; border-radius:8px;
+        padding:6px 14px; border-radius:100px; margin-bottom:20px; }
+      .db2-h2 { font-family:'Syne',sans-serif; font-size:clamp(32px,3.5vw,52px);
+        font-weight:800; letter-spacing:-1px; line-height:1.1; color:#111827; margin-bottom:12px; }
+      .db2-sub { font-size:17px; color:#6b7280; line-height:1.65; max-width:580px; margin:0 auto; }
+      .db2-tabs { display:flex; justify-content:center; margin-bottom:36px; }
+      .db2-tabbar { display:flex; gap:3px; background:#fff; border:1px solid rgba(0,0,0,.07);
+        border-radius:14px; padding:5px; box-shadow:0 1px 3px rgba(0,0,0,.06); }
+      .db2-tab { padding:9px 18px; border-radius:10px; border:none; background:transparent;
+        color:#6b7280; font-size:13px; font-weight:600; cursor:pointer;
+        font-family:'DM Sans',system-ui,sans-serif;
+        transition:all .18s; display:flex; align-items:center; gap:7px; white-space:nowrap; }
+      .db2-tab i { font-size:12px; }
+      .db2-tab.active { background:#4f46e5; color:#fff; box-shadow:0 2px 8px rgba(79,70,229,.35); }
+      .db2-tab:hover:not(.active) { background:#f0f2f8; color:#374151; }
+      .db2-panel { display:none; }
+      .db2-panel.active { display:block; }
+      .db2-window { background:#fff; border-radius:20px; border:1px solid rgba(0,0,0,.07);
+        box-shadow:0 4px 24px rgba(0,0,0,.09); overflow:hidden; }
+      .db2-titlebar { background:#f8f9fb; border-bottom:1px solid rgba(0,0,0,.07);
+        padding:12px 16px; display:flex; align-items:center; gap:10px; }
+      .db2-dots { display:flex; gap:5px; }
+      .db2-dot { width:10px; height:10px; border-radius:50%; }
+      .db2-dot.r{background:#ef4444;} .db2-dot.y{background:#f59e0b;} .db2-dot.g{background:#10b981;}
+      .db2-titlebar-name { font-size:12px; font-weight:700; color:#6b7280; font-family:'Syne',sans-serif; margin-left:4px; }
+      .db2-titlebar-url { font-size:11px; color:#9ca3af; margin-left:auto; font-family:'DM Mono',monospace; }
+      .db2-nav { background:#fff; border-bottom:1px solid rgba(0,0,0,.07);
+        padding:0 20px; height:52px; display:flex; align-items:center; gap:6px; overflow:hidden; }
+      .db2-nav-logo { display:flex; align-items:center; gap:8px; margin-right:16px; flex-shrink:0; }
+      .db2-nav-icon { width:28px; height:28px; border-radius:7px;
         background:linear-gradient(135deg,#4f46e5,#8b5cf6);
-        display:flex; align-items:center; justify-content:center;
+        display:flex; align-items:center; justify-content:center; }
+      .db2-nav-icon i { color:#fff; font-size:11px; }
+      .db2-nav-brand { font-family:'Syne',sans-serif; font-size:13px; font-weight:700; color:#111827; }
+      .db2-nav-co { font-size:10px; color:#9ca3af; }
+      .db2-nav-link { padding:5px 9px; border-radius:7px; font-size:11px; font-weight:600;
+        color:#9ca3af; white-space:nowrap; flex-shrink:0; }
+      .db2-nav-link.act { color:#4f46e5; background:rgba(79,70,229,.1); }
+      .db2-nav-sep { width:1px; height:14px; background:rgba(0,0,0,.07); margin:0 3px; flex-shrink:0; }
+      .db2-linea-sel { font-size:10px; font-weight:600; background:#f0f2f8; border:1px solid rgba(0,0,0,.07);
+        border-radius:7px; padding:4px 10px; color:#374151; margin-left:auto; flex-shrink:0; }
+      .db2-body { background:#f0f2f8; padding:20px; }
+      .db2-page-hdr { display:flex; align-items:flex-start; justify-content:space-between;
+        margin-bottom:18px; flex-wrap:wrap; gap:10px; }
+      .db2-page-title { font-family:'Syne',sans-serif; font-size:18px; font-weight:800; color:#111827; }
+      .db2-page-sub { font-size:11px; color:#9ca3af; margin-top:2px; }
+      .db2-kpi-grid { display:grid; grid-template-columns:repeat(4,1fr); gap:12px; margin-bottom:16px; }
+      .db2-kpi { background:#fff; border:1px solid rgba(0,0,0,.07); border-radius:14px;
+        padding:16px; box-shadow:0 1px 3px rgba(0,0,0,.05); position:relative; overflow:hidden; }
+      .db2-kpi::after { content:''; position:absolute; top:-8px; right:-8px; width:56px; height:56px;
+        border-radius:50%; opacity:.07; pointer-events:none; background:var(--kc,#4f46e5); }
+      .db2-kpi-icon { width:34px; height:34px; border-radius:8px; display:flex;
+        align-items:center; justify-content:center; margin-bottom:10px; font-size:14px; }
+      .db2-kpi-val { font-family:'Syne',sans-serif; font-size:22px; font-weight:800;
+        line-height:1; letter-spacing:-.02em; }
+      .db2-kpi-lbl { font-size:10px; color:#9ca3af; margin-top:3px; font-weight:500; }
+      .db2-kpi-bar { height:3px; border-radius:99px; background:#f0f2f8; margin-top:8px; overflow:hidden; }
+      .db2-kpi-fill { height:100%; border-radius:99px; }
+      .db2-kpi.indigo{--kc:#4f46e5;} .db2-kpi.indigo .db2-kpi-icon{background:rgba(79,70,229,.1);} .db2-kpi.indigo .db2-kpi-val{color:#6366f1;} .db2-kpi.indigo .db2-kpi-icon i{color:#4f46e5;}
+      .db2-kpi.green{--kc:#10b981;} .db2-kpi.green .db2-kpi-icon{background:rgba(16,185,129,.1);} .db2-kpi.green .db2-kpi-val{color:#10b981;} .db2-kpi.green .db2-kpi-icon i{color:#10b981;}
+      .db2-kpi.amber{--kc:#f59e0b;} .db2-kpi.amber .db2-kpi-icon{background:rgba(245,158,11,.1);} .db2-kpi.amber .db2-kpi-val{color:#f59e0b;} .db2-kpi.amber .db2-kpi-icon i{color:#f59e0b;}
+      .db2-kpi.purple{--kc:#8b5cf6;} .db2-kpi.purple .db2-kpi-icon{background:rgba(139,92,246,.1);} .db2-kpi.purple .db2-kpi-val{color:#8b5cf6;} .db2-kpi.purple .db2-kpi-icon i{color:#8b5cf6;}
+      .db2-kpi.rose{--kc:#f43f5e;} .db2-kpi.rose .db2-kpi-icon{background:rgba(244,63,94,.1);} .db2-kpi.rose .db2-kpi-val{color:#f43f5e;} .db2-kpi.rose .db2-kpi-icon i{color:#f43f5e;}
+      .db2-card { background:#fff; border:1px solid rgba(0,0,0,.07); border-radius:14px; box-shadow:0 1px 3px rgba(0,0,0,.05); }
+      .db2-card-hdr { padding:14px 18px 0; }
+      .db2-card-title { font-family:'Syne',sans-serif; font-size:13px; font-weight:700; color:#111827; }
+      .db2-card-sub { font-size:10px; color:#9ca3af; margin-top:2px; }
+      .db2-card-body { padding:14px 18px; }
+      .db2-inner-tabs { display:flex; border-bottom:1px solid rgba(0,0,0,.07); padding:0 18px; gap:0; overflow-x:auto; }
+      .db2-inner-tab { padding:10px 14px; font-size:11px; font-weight:600; color:#9ca3af;
+        border-bottom:2px solid transparent; white-space:nowrap; cursor:pointer;
+        transition:color .15s,border-color .15s; display:flex; align-items:center; gap:5px; }
+      .db2-inner-tab i { font-size:10px; }
+      .db2-inner-tab.act { color:#4f46e5; border-bottom-color:#4f46e5; }
+      .db2-bdg { display:inline-flex; align-items:center; gap:3px; padding:2px 8px;
+        border-radius:99px; font-size:10px; font-weight:700; text-transform:uppercase; letter-spacing:.04em; border:1px solid; }
+      .db2-bdg-ok  { background:rgba(16,185,129,.1); color:#10b981; border-color:rgba(16,185,129,.2); }
+      .db2-bdg-err { background:rgba(244,63,94,.1); color:#f43f5e; border-color:rgba(244,63,94,.2); }
+      .db2-bdg-warn{ background:rgba(245,158,11,.1); color:#f59e0b; border-color:rgba(245,158,11,.2); }
+      .db2-bdg-acc { background:rgba(79,70,229,.1); color:#4f46e5; border-color:rgba(79,70,229,.2); }
+      .db2-bdg-def { background:#f0f2f8; color:#6b7280; border-color:rgba(0,0,0,.07); }
+      .db2-tbl-wrap { border-radius:12px; border:1px solid rgba(0,0,0,.07); overflow:hidden; }
+      .db2-tbl { width:100%; border-collapse:collapse; font-size:11px; }
+      .db2-tbl thead th { background:#f8f9fb; color:#9ca3af; font-size:9px; font-weight:700;
+        text-transform:uppercase; letter-spacing:.08em; padding:8px 12px; text-align:left;
+        border-bottom:1px solid rgba(0,0,0,.07); white-space:nowrap; }
+      .db2-tbl tbody tr { border-top:1px solid rgba(0,0,0,.05); transition:background .1s; }
+      .db2-tbl tbody tr:hover { background:rgba(79,70,229,.04); }
+      .db2-tbl td { padding:8px 12px; color:#4b5563; vertical-align:middle; }
+      .db2-tbl td.hi { color:#111827; font-weight:600; }
+      .db2-pos { color:#10b981; font-weight:800; }
+      .db2-neg { color:#f43f5e; font-weight:800; }
+      .db2-prog { background:#f0f2f8; border-radius:99px; overflow:hidden; }
+      .db2-prog-fill { border-radius:99px; transition:width .7s cubic-bezier(.4,0,.2,1); }
+      .db2-two { display:grid; grid-template-columns:1fr 1fr; gap:12px; }
+      .db2-timeline { display:flex; flex-direction:column; }
+      .db2-tl-row { display:flex; gap:10px; padding:9px 0; border-bottom:1px solid rgba(0,0,0,.05); align-items:flex-start; }
+      .db2-tl-row:last-child { border-bottom:none; }
+      .db2-tl-dot { width:8px; height:8px; border-radius:50%; flex-shrink:0; margin-top:3px; }
+      .db2-tl-body { font-size:11px; color:#4b5563; flex:1; line-height:1.4; }
+      .db2-tl-date { font-size:10px; color:#9ca3af; display:block; margin-top:2px; }
+      .db2-prom-card { background:#f8f9fb; border:1px solid rgba(0,0,0,.06); border-radius:10px; padding:12px; }
+      .db2-prom-name { font-size:12px; font-weight:700; color:#111827; margin-bottom:6px; display:flex; justify-content:space-between; }
+      .db2-prom-pct { font-size:10px; font-weight:700; color:#6b7280; }
+      .db2-pct-row { display:flex; align-items:center; gap:8px; margin-bottom:8px; font-size:11px; }
+      .db2-pct-label { width:80px; color:#4b5563; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; flex-shrink:0; }
+      .db2-pct-track { flex:1; height:7px; background:#f0f2f8; border-radius:99px; overflow:hidden; }
+      .db2-pct-fill { height:100%; border-radius:99px; }
+      .db2-pct-val { font-size:10px; font-weight:700; color:#374151; min-width:20px; text-align:right; }
+      .db2-live { width:7px; height:7px; border-radius:50%; background:#10b981; animation:db2pulse 2s infinite; }
+      @keyframes db2pulse{0%,100%{opacity:1;transform:scale(1)}50%{opacity:.4;transform:scale(1.6)}}
+      .db2-filter-btn { background:#4f46e5; color:#fff; border:none; border-radius:8px;
+        padding:6px 14px; font-size:11px; font-weight:700; font-family:inherit; cursor:pointer;
+        display:flex; align-items:center; gap:5px; }
+      @media(max-width:900px){
+        .db2-kpi-grid{grid-template-columns:1fr 1fr;}
+        .db2-two{grid-template-columns:1fr;}
+        .db2-tabbar{flex-wrap:wrap;}
+        .db2-nav-link:not(.act){display:none;}
       }
-      .dash-c-nav-icon i { color:#fff; font-size:12px; }
-      .dash-c-nav-brand { font-family:'Montserrat',sans-serif; font-size:14px; font-weight:800; color:#111827; letter-spacing:-.3px; }
-      .dash-c-nav-link { padding:6px 11px; border-radius:8px; font-size:12px; font-weight:600; color:#9ca3af; }
-      .dash-c-nav-link.act { color:#4f46e5; background:rgba(79,70,229,.1); }
-
-      .dash-c-body { background:#f0f2f8; padding:28px; flex: 1; }
-      .dash-c-page-title {
-        font-family:'Montserrat',sans-serif;
-        font-size:24px; font-weight:800; color:#111827;
-        letter-spacing:-.5px;
-        display:flex; align-items:center; gap:10px;
-        margin-bottom: 24px;
-      }
-      .dash-c-page-title i { color:#4f46e5; font-size:22px; }
-
-      /* Blurred KPIs */
-      .dash-c-kpi-grid {
-        display:grid; grid-template-columns:repeat(4,1fr); gap:14px; margin-bottom:18px;
-      }
-      .dash-c-kpi {
-        background:#fff; border:1px solid rgba(0,0,0,.07); border-radius:14px;
-        padding:18px; box-shadow:0 1px 3px rgba(0,0,0,.05); position:relative; overflow:hidden;
-        min-height: 110px;
-      }
-      .dash-c-kpi-name {
-        font-family:'Montserrat',sans-serif;
-        font-size:13px; font-weight:700; color:#1f2937;
-        letter-spacing:-.2px; margin-bottom: 10px;
-        display:flex; align-items:center; gap: 8px;
-      }
-      .dash-c-kpi-name i { font-size: 13px; }
-      .dash-c-kpi-blur {
-        height: 28px; border-radius: 6px;
-        background: linear-gradient(90deg, rgba(79,70,229,.18), rgba(167,139,250,.10) 60%, rgba(79,70,229,.05));
-        filter: blur(3px);
-        margin-bottom: 8px;
-      }
-      .dash-c-kpi-bar {
-        height:5px; border-radius:99px; background:#f0f2f8; overflow:hidden;
-      }
-      .dash-c-kpi-fill { height:100%; border-radius:99px; filter: blur(.5px); }
-      .dash-c-kpi.indigo  .dash-c-kpi-name i { color:#4f46e5; }
-      .dash-c-kpi.green   .dash-c-kpi-name i { color:#10b981; }
-      .dash-c-kpi.amber   .dash-c-kpi-name i { color:#f59e0b; }
-      .dash-c-kpi.purple  .dash-c-kpi-name i { color:#8b5cf6; }
-      .dash-c-kpi.rose    .dash-c-kpi-name i { color:#f43f5e; }
-      .dash-c-kpi.indigo  .dash-c-kpi-fill { background: #4f46e5; width: 78%; }
-      .dash-c-kpi.green   .dash-c-kpi-fill { background: #10b981; width: 64%; }
-      .dash-c-kpi.amber   .dash-c-kpi-fill { background: #f59e0b; width: 86%; }
-      .dash-c-kpi.purple  .dash-c-kpi-fill { background: #8b5cf6; width: 72%; }
-      .dash-c-kpi.rose    .dash-c-kpi-fill { background: #f43f5e; width: 38%; }
-
-      /* Two columns of generic cards */
-      .dash-c-two { display:grid; grid-template-columns:1fr 1fr; gap:14px; }
-      .dash-c-card {
-        background:#fff; border:1px solid rgba(0,0,0,.07); border-radius:14px;
-        box-shadow:0 1px 3px rgba(0,0,0,.05);
-        padding: 18px 20px;
-      }
-      .dash-c-card-title {
-        font-family:'Montserrat',sans-serif;
-        font-size:15px; font-weight:800; color:#111827;
-        letter-spacing:-.3px;
-        display:flex; align-items:center; gap: 8px;
-        margin-bottom: 16px;
-      }
-      .dash-c-card-title i { color:#4f46e5; font-size:14px; }
-      .dash-c-blur-rows { display:flex; flex-direction:column; gap: 10px; }
-      .dash-c-blur-row {
-        display:grid; grid-template-columns: 1fr 50px; gap: 12px; align-items: center;
-      }
-      .dash-c-blur-row .lbl {
-        font-family:'Montserrat',sans-serif;
-        font-size:12px; font-weight:600; color:#4b5563;
-      }
-      .dash-c-blur-row .bar {
-        height: 8px; border-radius: 99px;
-        background: linear-gradient(90deg, var(--indigo) 0%, var(--indigo) var(--w,55%), #f0f2f8 var(--w,55%));
-        filter: blur(.4px);
-      }
-      .dash-c-blur-row .val {
-        height: 10px; width: 36px;
-        background: linear-gradient(90deg, rgba(0,0,0,.12), rgba(0,0,0,.05));
-        border-radius: 4px; filter: blur(2.5px);
-        margin-left: auto;
-      }
-
-      .dash-c-chart {
-        height: 200px; border-radius: 12px;
-        background:
-          linear-gradient(180deg, rgba(79,70,229,.02), rgba(79,70,229,.10) 100%),
-          repeating-linear-gradient(90deg, transparent 0 64px, rgba(0,0,0,.04) 64px 65px),
-          repeating-linear-gradient(0deg, transparent 0 36px, rgba(0,0,0,.04) 36px 37px);
-        position: relative;
-        overflow: hidden;
-      }
-      .dash-c-chart::after {
-        content: ''; position: absolute; left: 0; right: 0; bottom: 0;
-        height: 70%;
-        background: linear-gradient(180deg, transparent, rgba(79,70,229,.35));
-        clip-path: polygon(0 80%, 8% 65%, 18% 72%, 28% 50%, 38% 58%, 48% 38%, 58% 45%, 68% 28%, 78% 35%, 88% 18%, 100% 22%, 100% 100%, 0 100%);
-        filter: blur(1.5px);
-      }
-      .dash-c-chart::before {
-        content: ''; position: absolute; left: 0; right: 0; bottom: 0;
-        height: 100%;
-        background: linear-gradient(180deg, transparent 30%, rgba(124,58,237,.18) 100%);
-        clip-path: polygon(0 90%, 8% 78%, 18% 84%, 28% 65%, 38% 70%, 48% 55%, 58% 60%, 68% 48%, 78% 52%, 88% 35%, 100% 40%, 100% 100%, 0 100%);
-        filter: blur(2px);
-      }
-
-      .dash-c-donut {
-        width: 200px; height: 200px; border-radius: 50%; margin: 0 auto;
-        background: conic-gradient(#4f46e5 0 38%, #f43f5e 38% 100%);
-        filter: blur(1px); position: relative;
-      }
-      .dash-c-donut::after {
-        content: ''; position: absolute; inset: 28%;
-        background: #fff; border-radius: 50%;
-      }
-
-      .dash-c-bars {
-        display:grid; grid-template-columns: repeat(6, 1fr); gap: 14px;
-        height: 200px; align-items: end;
-        padding: 0 10px;
-      }
-      .dash-c-bar {
-        background: linear-gradient(180deg, var(--indigo-light), var(--indigo));
-        border-radius: 6px 6px 0 0;
-        filter: blur(1.5px);
-        min-height: 12px;
-      }
-
-      .dash-c-tags {
-        display:flex; flex-wrap:wrap; gap: 8px; margin-top: 6px;
-      }
-      .dash-c-tag {
-        font-family:'Montserrat',sans-serif;
-        font-size:12px; font-weight:600;
-        color: var(--indigo); background: var(--indigo-soft);
-        border: 1px solid var(--border-strong);
-        padding: 5px 11px; border-radius: 100px;
-      }
-      .dash-c-tag.green { color:#065F46; background: rgba(16,185,129,.10); border-color: rgba(16,185,129,.25); }
-      .dash-c-tag.amber { color:#92400E; background: rgba(245,158,11,.10); border-color: rgba(245,158,11,.25); }
-      .dash-c-tag.rose  { color:#9F1239; background: rgba(244,63,94,.10); border-color: rgba(244,63,94,.25); }
-      .dash-c-tag.purple{ color:#5B21B6; background: rgba(139,92,246,.10); border-color: rgba(139,92,246,.25); }
-
-      /* Slide caption */
-      .dash-c-caption {
-        text-align: center; margin-top: 16px;
-      }
-      .dash-c-caption-title {
-        font-family:'Montserrat',sans-serif;
-        font-size: 18px; font-weight: 800; color: var(--text); letter-spacing: -.3px;
-      }
-      .dash-c-caption-sub {
-        font-family: 'DM Mono', monospace; font-size: 11px;
-        letter-spacing: 1.5px; text-transform: uppercase;
-        color: var(--muted); margin-top: 4px;
-      }
-
-      /* Controls */
-      .dash-c-controls {
-        display:flex; justify-content:center; align-items:center; gap: 14px;
-        margin-top: 24px;
-      }
-      .dash-c-arrow {
-        width: 44px; height: 44px; border-radius: 50%;
-        background:#fff; border: 1px solid var(--border);
-        color: var(--indigo); font-size: 18px; cursor: pointer;
-        display: inline-flex; align-items: center; justify-content: center;
-        transition: background .2s, border-color .2s, transform .15s;
-      }
-      .dash-c-arrow:hover { background: var(--indigo-soft); border-color: var(--border-strong); transform: translateY(-1px); }
-      .dash-c-dots-host { display: inline-flex; gap: 8px; align-items: center; }
-      .dash-c-pdot {
-        width: 8px; height: 8px; border-radius: 50%;
-        background: var(--border); border: 0; cursor: pointer; padding: 0;
-        transition: width .25s, background .25s;
-      }
-      .dash-c-pdot.active { background: var(--indigo); width: 28px; border-radius: 100px; }
-
-      @media (max-width: 980px) {
-        .dash-c-slide { width: 720px; }
-        .dash-c-kpi-grid { grid-template-columns: 1fr 1fr; }
-        .dash-c-two { grid-template-columns: 1fr; }
-      }
-      @media (max-width: 640px) {
-        .dash-c-slide { width: 92vw; }
-        .dash-c-kpi-grid { grid-template-columns: 1fr 1fr; gap: 8px; }
-        .dash-c-window { min-height: 0; }
-        .dash-c-body { padding: 18px; }
+      @media(max-width:600px){
+        .db2-kpi-grid{grid-template-columns:1fr 1fr;}
       }
     </style>
 
-    <div class="dash-c-section">
-      <div class="dash-c-header reveal">
-        <span class="dash-c-sup">Para Gerentes</span>
-        <h2 class="dash-c-h2">Tu dashboard de gestión,<br />en tiempo real</h2>
-        <p class="dash-c-sub">Mientras los promotores capturan en punto de venta, tú ves precios, caras, espacios y actividad desde el panel de control.</p>
+    <div class="db2-section">
+      <div class="db2-header reveal">
+        <span class="db2-sup">Para Gerentes</span>
+        <h2 class="db2-h2">Tu dashboard de gestión,<br />en tiempo real</h2>
+        <p class="db2-sub">Mientras los promotores capturan en punto de venta, tú ves precios, caras, espacios y actividad desde el panel de control.</p>
       </div>
 
-      <div class="dash-c-wrap reveal" id="dashCarousel">
-        <div class="dash-c-viewport">
-          <div class="dash-c-track" id="dashCTrack">
+      <div class="db2-tabs reveal">
+        <div class="db2-tabbar">
+          <button class="db2-tab active" onclick="switchDb2(0,this)"><i class="fas fa-home"></i> Dashboard</button>
+          <button class="db2-tab" onclick="switchDb2(1,this)"><i class="fas fa-chart-bar"></i> Análisis Precios</button>
+          <button class="db2-tab" onclick="switchDb2(2,this)"><i class="fas fa-eye"></i> Caras de Anaquel</button>
+          <button class="db2-tab" onclick="switchDb2(3,this)"><i class="fas fa-store"></i> Espacios</button>
+          <button class="db2-tab" onclick="switchDb2(4,this)"><i class="fas fa-map-marker-alt"></i> GPS</button>
+          <button class="db2-tab" onclick="switchDb2(5,this)"><i class="fas fa-boxes"></i> Stock</button>
+        </div>
+      </div>
 
-            <!-- 1: DASHBOARD -->
-            <div class="dash-c-slide">
-              <div class="dash-c-window">
-                <div class="dash-c-titlebar">
-                  <div class="dash-c-dots"><div class="dash-c-dot r"></div><div class="dash-c-dot y"></div><div class="dash-c-dot g"></div></div>
-                  <div class="dash-c-tb-name">CAPTA — Dashboard</div>
-                  <div class="dash-c-tb-url">capta.app/dashboard</div>
-                </div>
-                <div class="dash-c-nav">
-                  <div class="dash-c-nav-logo">
-                    <div class="dash-c-nav-icon"><i class="fas fa-bolt"></i></div>
-                    <div class="dash-c-nav-brand">CAPTA</div>
-                  </div>
-                  <span class="dash-c-nav-link act"><i class="fas fa-home"></i> Dashboard</span>
-                  <span class="dash-c-nav-link"><i class="fas fa-chart-pie"></i> Análisis</span>
-                  <span class="dash-c-nav-link"><i class="fas fa-file-chart-column"></i> Reportes</span>
-                  <span class="dash-c-nav-link"><i class="fas fa-store"></i> Clientes</span>
-                  <span class="dash-c-nav-link"><i class="fas fa-user-tie"></i> Promotores</span>
-                </div>
-                <div class="dash-c-body">
-                  <div class="dash-c-page-title"><i class="fas fa-gauge-high"></i> Resumen ejecutivo</div>
-                  <div class="dash-c-kpi-grid">
-                    <div class="dash-c-kpi indigo"><div class="dash-c-kpi-name"><i class="fas fa-user-tie"></i> Promotores activos</div><div class="dash-c-kpi-blur"></div><div class="dash-c-kpi-bar"><div class="dash-c-kpi-fill"></div></div></div>
-                    <div class="dash-c-kpi green"><div class="dash-c-kpi-name"><i class="fas fa-store"></i> Visitas únicas</div><div class="dash-c-kpi-blur"></div><div class="dash-c-kpi-bar"><div class="dash-c-kpi-fill"></div></div></div>
-                    <div class="dash-c-kpi amber"><div class="dash-c-kpi-name"><i class="fas fa-map-marker-alt"></i> Confirmación GPS</div><div class="dash-c-kpi-blur"></div><div class="dash-c-kpi-bar"><div class="dash-c-kpi-fill"></div></div></div>
-                    <div class="dash-c-kpi purple"><div class="dash-c-kpi-name"><i class="fas fa-bullseye"></i> Meta semanal</div><div class="dash-c-kpi-blur"></div><div class="dash-c-kpi-bar"><div class="dash-c-kpi-fill"></div></div></div>
-                  </div>
-                  <div class="dash-c-two">
-                    <div class="dash-c-card">
-                      <div class="dash-c-card-title"><i class="fas fa-bullseye"></i> Meta por promotor</div>
-                      <div class="dash-c-blur-rows">
-                        <div class="dash-c-blur-row"><div><div class="lbl">Carlos Méndez</div><div class="bar" style="--w:78%"></div></div><div class="val"></div></div>
-                        <div class="dash-c-blur-row"><div><div class="lbl">Ana Torres</div><div class="bar" style="--w:62%"></div></div><div class="val"></div></div>
-                        <div class="dash-c-blur-row"><div><div class="lbl">Luisa Paz</div><div class="bar" style="--w:54%"></div></div><div class="val"></div></div>
-                        <div class="dash-c-blur-row"><div><div class="lbl">José Ramos</div><div class="bar" style="--w:28%"></div></div><div class="val"></div></div>
-                      </div>
-                    </div>
-                    <div class="dash-c-card">
-                      <div class="dash-c-card-title"><i class="fas fa-clipboard-list"></i> Últimas visitas</div>
-                      <div class="dash-c-blur-rows">
-                        <div class="dash-c-blur-row"><div><div class="lbl">Supermercado Central</div><div class="bar" style="--w:90%; background: linear-gradient(90deg, var(--success) 0%, var(--success) 90%, #f0f2f8 90%);"></div></div><div class="val"></div></div>
-                        <div class="dash-c-blur-row"><div><div class="lbl">Mega Mercado Norte</div><div class="bar" style="--w:90%; background: linear-gradient(90deg, var(--success) 0%, var(--success) 90%, #f0f2f8 90%);"></div></div><div class="val"></div></div>
-                        <div class="dash-c-blur-row"><div><div class="lbl">Tienda La Esquina</div><div class="bar" style="--w:55%; background: linear-gradient(90deg, var(--amber) 0%, var(--amber) 55%, #f0f2f8 55%);"></div></div><div class="val"></div></div>
-                        <div class="dash-c-blur-row"><div><div class="lbl">Abasto El Rincón</div><div class="bar" style="--w:90%; background: linear-gradient(90deg, var(--success) 0%, var(--success) 90%, #f0f2f8 90%);"></div></div><div class="val"></div></div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
+      <!-- PANEL 0: DASHBOARD PRINCIPAL -->
+      <div class="db2-panel active" id="db2p0">
+        <div class="db2-window reveal">
+          <div class="db2-titlebar">
+            <div class="db2-dots"><div class="db2-dot r"></div><div class="db2-dot y"></div><div class="db2-dot g"></div></div>
+            <div class="db2-titlebar-name">CAPTA — Dashboard</div>
+            <div class="db2-titlebar-url">capta.app/dashboard</div>
+          </div>
+          <div class="db2-nav">
+            <div class="db2-nav-logo">
+              <div class="db2-nav-icon"><i class="fas fa-bolt"></i></div>
+              <div><div class="db2-nav-brand">CAPTA</div><div class="db2-nav-co">Distribuidora Nacional</div></div>
+            </div>
+            <span class="db2-nav-link act"><i class="fas fa-home"></i> Dashboard</span>
+            <span class="db2-nav-link"><i class="fas fa-chart-pie"></i> Análisis ▾</span>
+            <span class="db2-nav-link"><i class="fas fa-file-chart-column"></i> Reportes</span>
+            <span class="db2-nav-link"><i class="fas fa-store"></i> Clientes</span>
+            <span class="db2-nav-link"><i class="fas fa-user-tie"></i> Promotores</span>
+            <span class="db2-nav-sep"></span>
+            <span class="db2-nav-link"><i class="fas fa-boxes"></i> Stock</span>
+            <div class="db2-linea-sel"><i class="fas fa-layer-group" style="margin-right:4px;font-size:9px;"></i>Línea: Premium</div>
+          </div>
+          <div class="db2-body">
+            <div class="db2-page-hdr">
+              <div><div class="db2-page-title">Filtros y Métricas</div><div class="db2-page-sub">Semana actual · Todas las zonas</div></div>
+              <div style="display:flex;gap:6px;align-items:center;"><div class="db2-live"></div><span style="font-size:10px;color:#10b981;font-weight:600;">En vivo</span></div>
+            </div>
+            <div class="db2-kpi-grid">
+              <div class="db2-kpi indigo">
+                <div class="db2-kpi-icon"><i class="fas fa-user-tie"></i></div>
+                <div class="db2-kpi-val">18</div>
+                <div class="db2-kpi-lbl">Promotores activos</div>
+                <div class="db2-kpi-bar"><div class="db2-kpi-fill" style="background:#4f46e5;width:82%"></div></div>
               </div>
-              <div class="dash-c-caption">
-                <div class="dash-c-caption-title">Dashboard ejecutivo</div>
-                <div class="dash-c-caption-sub">Vista general · Meta · Equipo</div>
+              <div class="db2-kpi green">
+                <div class="db2-kpi-icon"><i class="fas fa-store"></i></div>
+                <div class="db2-kpi-val">94</div>
+                <div class="db2-kpi-lbl">Visitas únicas (semana)</div>
+                <div class="db2-kpi-bar"><div class="db2-kpi-fill" style="background:#10b981;width:68%"></div></div>
+              </div>
+              <div class="db2-kpi amber">
+                <div class="db2-kpi-icon"><i class="fas fa-map-marker-alt"></i></div>
+                <div class="db2-kpi-val">87%</div>
+                <div class="db2-kpi-lbl">Confirmación GPS</div>
+                <div class="db2-kpi-bar"><div class="db2-kpi-fill" style="background:#f59e0b;width:87%"></div></div>
+              </div>
+              <div class="db2-kpi purple">
+                <div class="db2-kpi-icon"><i class="fas fa-bullseye"></i></div>
+                <div class="db2-kpi-val">76%</div>
+                <div class="db2-kpi-lbl">Meta semanal</div>
+                <div class="db2-kpi-bar"><div class="db2-kpi-fill" style="background:#8b5cf6;width:76%"></div></div>
               </div>
             </div>
-
-            <!-- 2: ANÁLISIS PRECIOS -->
-            <div class="dash-c-slide">
-              <div class="dash-c-window">
-                <div class="dash-c-titlebar">
-                  <div class="dash-c-dots"><div class="dash-c-dot r"></div><div class="dash-c-dot y"></div><div class="dash-c-dot g"></div></div>
-                  <div class="dash-c-tb-name">CAPTA — Análisis de Precios</div>
-                  <div class="dash-c-tb-url">capta.app/analisis</div>
+            <div class="db2-two" style="margin-top:12px;">
+              <div class="db2-card">
+                <div class="db2-card-hdr" style="padding-bottom:12px;">
+                  <div class="db2-card-title"><i class="fas fa-bullseye" style="color:#8b5cf6;margin-right:6px;font-size:11px;"></i>Meta Semanal por Promotor</div>
+                  <div class="db2-card-sub">Visitas únicas vs. meta — semana actual</div>
                 </div>
-                <div class="dash-c-nav">
-                  <div class="dash-c-nav-logo">
-                    <div class="dash-c-nav-icon"><i class="fas fa-bolt"></i></div>
-                    <div class="dash-c-nav-brand">CAPTA</div>
+                <div class="db2-card-body" style="display:grid;grid-template-columns:1fr 1fr;gap:8px;">
+                  <div class="db2-prom-card">
+                    <div class="db2-prom-name">Carlos Méndez <span class="db2-prom-pct">28/40</span></div>
+                    <div class="db2-prog" style="height:6px;margin-bottom:4px;"><div class="db2-prog-fill" style="background:#10b981;width:70%;height:100%;border-radius:99px;"></div></div>
+                    <div style="font-size:9px;color:#9ca3af;">70% meta · 24 GPS conf.</div>
                   </div>
-                  <span class="dash-c-nav-link"><i class="fas fa-home"></i> Dashboard</span>
-                  <span class="dash-c-nav-link act"><i class="fas fa-chart-pie"></i> Análisis</span>
-                  <span class="dash-c-nav-link"><i class="fas fa-file-chart-column"></i> Reportes</span>
-                </div>
-                <div class="dash-c-body">
-                  <div class="dash-c-page-title"><i class="fas fa-chart-bar"></i> Análisis de Precios</div>
-                  <div class="dash-c-kpi-grid">
-                    <div class="dash-c-kpi indigo"><div class="dash-c-kpi-name"><i class="fas fa-exchange-alt"></i> Comparaciones</div><div class="dash-c-kpi-blur"></div><div class="dash-c-kpi-bar"><div class="dash-c-kpi-fill"></div></div></div>
-                    <div class="dash-c-kpi green"><div class="dash-c-kpi-name"><i class="fas fa-arrow-down"></i> Más baratos</div><div class="dash-c-kpi-blur"></div><div class="dash-c-kpi-bar"><div class="dash-c-kpi-fill"></div></div></div>
-                    <div class="dash-c-kpi rose"><div class="dash-c-kpi-name"><i class="fas fa-arrow-up"></i> Más caros</div><div class="dash-c-kpi-blur"></div><div class="dash-c-kpi-bar"><div class="dash-c-kpi-fill"></div></div></div>
-                    <div class="dash-c-kpi amber"><div class="dash-c-kpi-name"><i class="fas fa-percentage"></i> Diferencia prom.</div><div class="dash-c-kpi-blur"></div><div class="dash-c-kpi-bar"><div class="dash-c-kpi-fill"></div></div></div>
+                  <div class="db2-prom-card">
+                    <div class="db2-prom-name">Ana Torres <span class="db2-prom-pct">24/40</span></div>
+                    <div class="db2-prog" style="height:6px;margin-bottom:4px;"><div class="db2-prog-fill" style="background:#f59e0b;width:60%;height:100%;border-radius:99px;"></div></div>
+                    <div style="font-size:9px;color:#9ca3af;">60% meta · 20 GPS conf.</div>
                   </div>
-                  <div class="dash-c-card">
-                    <div class="dash-c-card-title"><i class="fas fa-chart-bar"></i> Nuestro precio vs. competencia</div>
-                    <div class="dash-c-chart"></div>
-                    <div class="dash-c-tags">
-                      <span class="dash-c-tag">Premium 500g</span>
-                      <span class="dash-c-tag">Económica 250g</span>
-                      <span class="dash-c-tag">Institucional 1kg</span>
-                      <span class="dash-c-tag green">Somos más baratos</span>
-                      <span class="dash-c-tag rose">Somos más caros</span>
-                    </div>
+                  <div class="db2-prom-card">
+                    <div class="db2-prom-name">Luisa Paz <span class="db2-prom-pct">21/40</span></div>
+                    <div class="db2-prog" style="height:6px;margin-bottom:4px;"><div class="db2-prog-fill" style="background:#f59e0b;width:52%;height:100%;border-radius:99px;"></div></div>
+                    <div style="font-size:9px;color:#9ca3af;">52% meta · 18 GPS conf.</div>
+                  </div>
+                  <div class="db2-prom-card">
+                    <div class="db2-prom-name">José Ramos <span class="db2-prom-pct">11/40</span></div>
+                    <div class="db2-prog" style="height:6px;margin-bottom:4px;"><div class="db2-prog-fill" style="background:#f43f5e;width:27%;height:100%;border-radius:99px;"></div></div>
+                    <div style="font-size:9px;color:#9ca3af;">27% meta · 9 GPS conf.</div>
                   </div>
                 </div>
               </div>
-              <div class="dash-c-caption">
-                <div class="dash-c-caption-title">Análisis de precios</div>
-                <div class="dash-c-caption-sub">Nuestro vs. competencia directa</div>
-              </div>
-            </div>
-
-            <!-- 3: CARAS DE ANAQUEL -->
-            <div class="dash-c-slide">
-              <div class="dash-c-window">
-                <div class="dash-c-titlebar">
-                  <div class="dash-c-dots"><div class="dash-c-dot r"></div><div class="dash-c-dot y"></div><div class="dash-c-dot g"></div></div>
-                  <div class="dash-c-tb-name">CAPTA — Caras en Anaquel</div>
-                  <div class="dash-c-tb-url">capta.app/caras</div>
+              <div class="db2-card">
+                <div class="db2-card-hdr" style="padding-bottom:12px;">
+                  <div class="db2-card-title"><i class="fas fa-clipboard-list" style="color:#4f46e5;margin-right:6px;font-size:11px;"></i>Últimas Visitas</div>
+                  <div class="db2-card-sub">Visitas agrupadas por comercio/día</div>
                 </div>
-                <div class="dash-c-nav">
-                  <div class="dash-c-nav-logo">
-                    <div class="dash-c-nav-icon"><i class="fas fa-bolt"></i></div>
-                    <div class="dash-c-nav-brand">CAPTA</div>
-                  </div>
-                  <span class="dash-c-nav-link"><i class="fas fa-home"></i> Dashboard</span>
-                  <span class="dash-c-nav-link act"><i class="fas fa-eye"></i> Caras</span>
-                  <span class="dash-c-nav-link"><i class="fas fa-file-chart-column"></i> Reportes</span>
+                <div class="db2-tbl-wrap" style="margin:0 14px 14px;">
+                  <table class="db2-tbl">
+                    <thead><tr><th>Fecha</th><th>Promotor</th><th>Comercio</th><th>Líneas</th><th>GPS</th></tr></thead>
+                    <tbody>
+                      <tr><td>30/04/26</td><td class="hi">C. Méndez</td><td class="hi">Supermercado Central</td><td><span class="db2-bdg db2-bdg-acc">Premium</span></td><td><span class="db2-bdg db2-bdg-ok"><i class="fas fa-check-circle"></i> Conf.</span></td></tr>
+                      <tr><td>30/04/26</td><td class="hi">A. Torres</td><td class="hi">Mega Mercado Norte</td><td><span class="db2-bdg db2-bdg-acc">Económ.</span></td><td><span class="db2-bdg db2-bdg-ok"><i class="fas fa-check-circle"></i> Conf.</span></td></tr>
+                      <tr><td>30/04/26</td><td class="hi">L. Paz</td><td class="hi">Tienda La Esquina</td><td><span class="db2-bdg db2-bdg-acc">Premium</span></td><td><span class="db2-bdg db2-bdg-warn"><i class="fas fa-times-circle"></i> No conf.</span></td></tr>
+                      <tr><td>29/04/26</td><td class="hi">J. Ramos</td><td class="hi">Abasto El Rincón</td><td><span class="db2-bdg db2-bdg-acc">Instit.</span></td><td><span class="db2-bdg db2-bdg-ok"><i class="fas fa-check-circle"></i> Conf.</span></td></tr>
+                    </tbody>
+                  </table>
                 </div>
-                <div class="dash-c-body">
-                  <div class="dash-c-page-title"><i class="fas fa-eye"></i> Caras en Anaquel</div>
-                  <div class="dash-c-two" style="margin-bottom: 14px;">
-                    <div class="dash-c-card">
-                      <div class="dash-c-card-title"><i class="fas fa-chart-pie"></i> Share of Shelf</div>
-                      <div class="dash-c-donut"></div>
-                      <div class="dash-c-tags" style="justify-content:center; margin-top:14px;">
-                        <span class="dash-c-tag">Nuestro SOS</span>
-                        <span class="dash-c-tag rose">Competencia</span>
-                      </div>
-                    </div>
-                    <div class="dash-c-card">
-                      <div class="dash-c-card-title"><i class="fas fa-chart-bar"></i> Antes vs. después</div>
-                      <div class="dash-c-bars">
-                        <div class="dash-c-bar" style="height:55%"></div>
-                        <div class="dash-c-bar" style="height:75%"></div>
-                        <div class="dash-c-bar" style="height:42%"></div>
-                        <div class="dash-c-bar" style="height:60%"></div>
-                        <div class="dash-c-bar" style="height:48%"></div>
-                        <div class="dash-c-bar" style="height:68%"></div>
-                      </div>
-                      <div class="dash-c-tags" style="margin-top:14px;">
-                        <span class="dash-c-tag amber">Antes</span>
-                        <span class="dash-c-tag green">Después</span>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="dash-c-caption">
-                <div class="dash-c-caption-title">Caras de anaquel</div>
-                <div class="dash-c-caption-sub">Share of Shelf · Impacto del promotor</div>
               </div>
             </div>
-
-            <!-- 4: ESPACIOS -->
-            <div class="dash-c-slide">
-              <div class="dash-c-window">
-                <div class="dash-c-titlebar">
-                  <div class="dash-c-dots"><div class="dash-c-dot r"></div><div class="dash-c-dot y"></div><div class="dash-c-dot g"></div></div>
-                  <div class="dash-c-tb-name">CAPTA — Espacios Adicionales</div>
-                  <div class="dash-c-tb-url">capta.app/espacios</div>
-                </div>
-                <div class="dash-c-nav">
-                  <div class="dash-c-nav-logo">
-                    <div class="dash-c-nav-icon"><i class="fas fa-bolt"></i></div>
-                    <div class="dash-c-nav-brand">CAPTA</div>
-                  </div>
-                  <span class="dash-c-nav-link"><i class="fas fa-home"></i> Dashboard</span>
-                  <span class="dash-c-nav-link act"><i class="fas fa-store"></i> Espacios</span>
-                  <span class="dash-c-nav-link"><i class="fas fa-file-chart-column"></i> Reportes</span>
-                </div>
-                <div class="dash-c-body">
-                  <div class="dash-c-page-title"><i class="fas fa-store"></i> Espacios Adicionales</div>
-                  <div class="dash-c-kpi-grid">
-                    <div class="dash-c-kpi purple"><div class="dash-c-kpi-name"><i class="fas fa-store"></i> Espacios activos</div><div class="dash-c-kpi-blur"></div><div class="dash-c-kpi-bar"><div class="dash-c-kpi-fill"></div></div></div>
-                    <div class="dash-c-kpi green"><div class="dash-c-kpi-name"><i class="fas fa-plus-circle"></i> Ganados</div><div class="dash-c-kpi-blur"></div><div class="dash-c-kpi-bar"><div class="dash-c-kpi-fill"></div></div></div>
-                    <div class="dash-c-kpi rose"><div class="dash-c-kpi-name"><i class="fas fa-minus-circle"></i> Perdidos</div><div class="dash-c-kpi-blur"></div><div class="dash-c-kpi-bar"><div class="dash-c-kpi-fill"></div></div></div>
-                    <div class="dash-c-kpi amber"><div class="dash-c-kpi-name"><i class="fas fa-map-marker-alt"></i> PDVs con espacio</div><div class="dash-c-kpi-blur"></div><div class="dash-c-kpi-bar"><div class="dash-c-kpi-fill"></div></div></div>
-                  </div>
-                  <div class="dash-c-card">
-                    <div class="dash-c-card-title"><i class="fas fa-cubes"></i> Por tipo de espacio</div>
-                    <div class="dash-c-blur-rows">
-                      <div class="dash-c-blur-row"><div><div class="lbl">🗼 Torres</div><div class="bar" style="--w:72%; background: linear-gradient(90deg, var(--indigo) 0%, var(--indigo) 72%, #f0f2f8 72%);"></div></div><div class="val"></div></div>
-                      <div class="dash-c-blur-row"><div><div class="lbl">📐 Cabezales</div><div class="bar" style="--w:58%; background: linear-gradient(90deg, var(--purple) 0%, var(--purple) 58%, #f0f2f8 58%);"></div></div><div class="val"></div></div>
-                      <div class="dash-c-blur-row"><div><div class="lbl">🪵 Paletas</div><div class="bar" style="--w:42%; background: linear-gradient(90deg, var(--purple-light) 0%, var(--purple-light) 42%, #f0f2f8 42%);"></div></div><div class="val"></div></div>
-                      <div class="dash-c-blur-row"><div><div class="lbl">🏪 Exhibiciones</div><div class="bar" style="--w:30%; background: linear-gradient(90deg, #c4b5fd 0%, #c4b5fd 30%, #f0f2f8 30%);"></div></div><div class="val"></div></div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="dash-c-caption">
-                <div class="dash-c-caption-title">Espacios adicionales</div>
-                <div class="dash-c-caption-sub">Torres · Cabezales · Paletas · Exhibiciones</div>
-              </div>
-            </div>
-
-            <!-- 5: GPS -->
-            <div class="dash-c-slide">
-              <div class="dash-c-window">
-                <div class="dash-c-titlebar">
-                  <div class="dash-c-dots"><div class="dash-c-dot r"></div><div class="dash-c-dot y"></div><div class="dash-c-dot g"></div></div>
-                  <div class="dash-c-tb-name">CAPTA — Seguimiento GPS</div>
-                  <div class="dash-c-tb-url">capta.app/gps</div>
-                </div>
-                <div class="dash-c-nav">
-                  <div class="dash-c-nav-logo">
-                    <div class="dash-c-nav-icon"><i class="fas fa-bolt"></i></div>
-                    <div class="dash-c-nav-brand">CAPTA</div>
-                  </div>
-                  <span class="dash-c-nav-link"><i class="fas fa-home"></i> Dashboard</span>
-                  <span class="dash-c-nav-link act"><i class="fas fa-map-marked-alt"></i> GPS</span>
-                  <span class="dash-c-nav-link"><i class="fas fa-file-chart-column"></i> Reportes</span>
-                </div>
-                <div class="dash-c-body">
-                  <div class="dash-c-page-title"><i class="fas fa-map-marker-alt"></i> Seguimiento GPS</div>
-                  <div class="dash-c-card">
-                    <div class="dash-c-card-title"><i class="fas fa-map"></i> Mapa de visitas</div>
-                    <div style="position:relative;background:#e8edf2;border-radius:12px;height:240px;overflow:hidden;">
-                      <svg viewBox="0 0 600 240" style="width:100%;height:100%;" preserveAspectRatio="xMidYMid slice">
-                        <rect width="600" height="240" fill="#e8edf2"/>
-                        <line x1="0" y1="120" x2="600" y2="120" stroke="#fff" stroke-width="8" opacity="0.6"/>
-                        <line x1="150" y1="0" x2="150" y2="240" stroke="#fff" stroke-width="6" opacity="0.5"/>
-                        <line x1="350" y1="0" x2="350" y2="240" stroke="#fff" stroke-width="6" opacity="0.5"/>
-                        <line x1="0" y1="60" x2="600" y2="60" stroke="#fff" stroke-width="4" opacity="0.4"/>
-                        <line x1="0" y1="180" x2="600" y2="180" stroke="#fff" stroke-width="4" opacity="0.4"/>
-                        <rect x="20" y="20" width="50" height="30" rx="3" fill="#d1d9e0" opacity="0.8"/>
-                        <rect x="170" y="20" width="60" height="30" rx="3" fill="#d1d9e0" opacity="0.8"/>
-                        <rect x="370" y="20" width="70" height="30" rx="3" fill="#d1d9e0" opacity="0.8"/>
-                        <rect x="20" y="80" width="40" height="30" rx="3" fill="#d1d9e0" opacity="0.8"/>
-                        <rect x="170" y="80" width="55" height="30" rx="3" fill="#d1d9e0" opacity="0.8"/>
-                        <rect x="370" y="80" width="80" height="30" rx="3" fill="#d1d9e0" opacity="0.8"/>
-                        <rect x="20" y="140" width="50" height="30" rx="3" fill="#d1d9e0" opacity="0.8"/>
-                        <rect x="170" y="140" width="60" height="30" rx="3" fill="#d1d9e0" opacity="0.8"/>
-                        <rect x="370" y="140" width="90" height="30" rx="3" fill="#d1d9e0" opacity="0.8"/>
-                        <rect x="20" y="190" width="40" height="30" rx="3" fill="#d1d9e0" opacity="0.8"/>
-                        <rect x="170" y="190" width="55" height="30" rx="3" fill="#d1d9e0" opacity="0.8"/>
-                        <rect x="370" y="190" width="70" height="30" rx="3" fill="#d1d9e0" opacity="0.8"/>
-                        <polyline points="60,170 120,115 200,90 310,110 390,65 490,95 545,140" fill="none" stroke="#4f46e5" stroke-width="2.5" stroke-dasharray="8,4" opacity="0.7"/>
-                        <circle cx="60" cy="170" r="9" fill="#10b981" stroke="white" stroke-width="2.5"/>
-                        <circle cx="120" cy="115" r="9" fill="#10b981" stroke="white" stroke-width="2.5"/>
-                        <circle cx="200" cy="90" r="9" fill="#10b981" stroke="white" stroke-width="2.5"/>
-                        <circle cx="310" cy="110" r="9" fill="#10b981" stroke="white" stroke-width="2.5"/>
-                        <circle cx="390" cy="65" r="9" fill="#10b981" stroke="white" stroke-width="2.5"/>
-                        <circle cx="490" cy="95" r="9" fill="#ef4444" stroke="white" stroke-width="2.5"/>
-                        <circle cx="545" cy="140" r="9" fill="#f59e0b" stroke="white" stroke-width="2.5"/>
-                        <circle cx="440" cy="170" r="8" fill="#10b981" stroke="white" stroke-width="2"/>
-                      </svg>
-                    </div>
-                    <div class="dash-c-tags" style="margin-top:14px;">
-                      <span class="dash-c-tag green">Visita confirmada</span>
-                      <span class="dash-c-tag rose">No confirmada</span>
-                      <span class="dash-c-tag amber">Sin coordenadas</span>
-                      <span class="dash-c-tag purple">Sospechosa</span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="dash-c-caption">
-                <div class="dash-c-caption-title">Seguimiento GPS</div>
-                <div class="dash-c-caption-sub">Rutas · Tiempos · Confirmación</div>
-              </div>
-            </div>
-
-            <!-- 6: STOCK -->
-            <div class="dash-c-slide">
-              <div class="dash-c-window">
-                <div class="dash-c-titlebar">
-                  <div class="dash-c-dots"><div class="dash-c-dot r"></div><div class="dash-c-dot y"></div><div class="dash-c-dot g"></div></div>
-                  <div class="dash-c-tb-name">CAPTA — Control de Stock</div>
-                  <div class="dash-c-tb-url">capta.app/stock</div>
-                </div>
-                <div class="dash-c-nav">
-                  <div class="dash-c-nav-logo">
-                    <div class="dash-c-nav-icon"><i class="fas fa-bolt"></i></div>
-                    <div class="dash-c-nav-brand">CAPTA</div>
-                  </div>
-                  <span class="dash-c-nav-link"><i class="fas fa-home"></i> Dashboard</span>
-                  <span class="dash-c-nav-link act"><i class="fas fa-boxes"></i> Stock</span>
-                  <span class="dash-c-nav-link"><i class="fas fa-file-chart-column"></i> Reportes</span>
-                </div>
-                <div class="dash-c-body">
-                  <div class="dash-c-page-title"><i class="fas fa-boxes-stacked"></i> Control de Stock</div>
-                  <div class="dash-c-kpi-grid">
-                    <div class="dash-c-kpi indigo"><div class="dash-c-kpi-name"><i class="fas fa-boxes"></i> SKUs monitoreados</div><div class="dash-c-kpi-blur"></div><div class="dash-c-kpi-bar"><div class="dash-c-kpi-fill"></div></div></div>
-                    <div class="dash-c-kpi rose"><div class="dash-c-kpi-name"><i class="fas fa-triangle-exclamation"></i> Quiebres activos</div><div class="dash-c-kpi-blur"></div><div class="dash-c-kpi-bar"><div class="dash-c-kpi-fill"></div></div></div>
-                    <div class="dash-c-kpi amber"><div class="dash-c-kpi-name"><i class="fas fa-arrow-down-short-wide"></i> Stock crítico</div><div class="dash-c-kpi-blur"></div><div class="dash-c-kpi-bar"><div class="dash-c-kpi-fill"></div></div></div>
-                    <div class="dash-c-kpi green"><div class="dash-c-kpi-name"><i class="fas fa-check-double"></i> Bien abastecido</div><div class="dash-c-kpi-blur"></div><div class="dash-c-kpi-bar"><div class="dash-c-kpi-fill"></div></div></div>
-                  </div>
-                  <div class="dash-c-card">
-                    <div class="dash-c-card-title"><i class="fas fa-chart-line"></i> Frecuencia de quiebres por SKU</div>
-                    <div class="dash-c-bars">
-                      <div class="dash-c-bar" style="height:70%; background: linear-gradient(180deg, #fda4af, var(--rose));"></div>
-                      <div class="dash-c-bar" style="height:52%; background: linear-gradient(180deg, #fcd34d, var(--amber));"></div>
-                      <div class="dash-c-bar" style="height:42%; background: linear-gradient(180deg, var(--purple-light), var(--purple));"></div>
-                      <div class="dash-c-bar" style="height:38%; background: linear-gradient(180deg, var(--indigo-light), var(--indigo));"></div>
-                      <div class="dash-c-bar" style="height:28%; background: linear-gradient(180deg, #6ee7b7, var(--success));"></div>
-                      <div class="dash-c-bar" style="height:18%; background: linear-gradient(180deg, #6ee7b7, var(--success));"></div>
-                    </div>
-                    <div class="dash-c-tags" style="margin-top:14px;">
-                      <span class="dash-c-tag">Premium 500g</span>
-                      <span class="dash-c-tag">Económica 250g</span>
-                      <span class="dash-c-tag">Institucional 1kg</span>
-                      <span class="dash-c-tag">Premium 1kg</span>
-                      <span class="dash-c-tag">Económica 1kg</span>
-                      <span class="dash-c-tag">Institucional 500g</span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="dash-c-caption">
-                <div class="dash-c-caption-title">Control de stock</div>
-                <div class="dash-c-caption-sub">SKUs · Quiebres · Frecuencia</div>
-              </div>
-            </div>
-
           </div>
         </div>
-        <div class="dash-c-controls">
-          <button class="dash-c-arrow" id="dashCPrev" aria-label="Anterior"><i class="ti ti-chevron-left" aria-hidden="true"></i></button>
-          <div class="dash-c-dots-host" id="dashCDots"></div>
-          <button class="dash-c-arrow" id="dashCNext" aria-label="Siguiente"><i class="ti ti-chevron-right" aria-hidden="true"></i></button>
+      </div>
+
+      <!-- PANEL 1: ANÁLISIS PRECIOS -->
+      <div class="db2-panel" id="db2p1">
+        <div class="db2-window reveal">
+          <div class="db2-titlebar">
+            <div class="db2-dots"><div class="db2-dot r"></div><div class="db2-dot y"></div><div class="db2-dot g"></div></div>
+            <div class="db2-titlebar-name">CAPTA — Análisis de Precios</div>
+            <div class="db2-titlebar-url">capta.app/analisis</div>
+          </div>
+          <div class="db2-nav">
+            <div class="db2-nav-logo">
+              <div class="db2-nav-icon"><i class="fas fa-bolt"></i></div>
+              <div><div class="db2-nav-brand">CAPTA</div><div class="db2-nav-co">Distribuidora Nacional</div></div>
+            </div>
+            <span class="db2-nav-link"><i class="fas fa-home"></i> Dashboard</span>
+            <span class="db2-nav-link act"><i class="fas fa-chart-pie"></i> Análisis ▾</span>
+            <span class="db2-nav-link"><i class="fas fa-file-chart-column"></i> Reportes</span>
+            <div class="db2-linea-sel" style="margin-left:auto;"><i class="fas fa-layer-group" style="margin-right:4px;font-size:9px;"></i>Línea: Premium</div>
+          </div>
+          <div class="db2-body">
+            <div class="db2-page-hdr">
+              <div>
+                <div class="db2-page-title"><i class="fas fa-chart-bar" style="color:#4f46e5;margin-right:8px;"></i>Análisis de Precios</div>
+                <div class="db2-page-sub">Precios en USD — nuestros productos vs. competencia directa vinculada</div>
+              </div>
+              <button class="db2-filter-btn"><i class="fas fa-file-excel"></i> Exportar Excel</button>
+            </div>
+            <div class="db2-kpi-grid" style="margin-bottom:14px;">
+              <div class="db2-kpi indigo">
+                <div class="db2-kpi-icon"><i class="fas fa-exchange-alt"></i></div>
+                <div class="db2-kpi-val">142</div>
+                <div class="db2-kpi-lbl">Comparaciones</div>
+                <div class="db2-kpi-bar"><div class="db2-kpi-fill" style="background:#4f46e5;width:80%"></div></div>
+              </div>
+              <div class="db2-kpi green">
+                <div class="db2-kpi-icon"><i class="fas fa-arrow-down"></i></div>
+                <div class="db2-kpi-val">89 (63%)</div>
+                <div class="db2-kpi-lbl">Somos más baratos</div>
+                <div class="db2-kpi-bar"><div class="db2-kpi-fill" style="background:#10b981;width:63%"></div></div>
+              </div>
+              <div class="db2-kpi rose">
+                <div class="db2-kpi-icon"><i class="fas fa-arrow-up"></i></div>
+                <div class="db2-kpi-val">53 (37%)</div>
+                <div class="db2-kpi-lbl">Somos más caros</div>
+                <div class="db2-kpi-bar"><div class="db2-kpi-fill" style="background:#f43f5e;width:37%"></div></div>
+              </div>
+              <div class="db2-kpi amber">
+                <div class="db2-kpi-icon"><i class="fas fa-percentage"></i></div>
+                <div class="db2-kpi-val">−8.4%</div>
+                <div class="db2-kpi-lbl">Diferencia promedio</div>
+                <div class="db2-kpi-bar"><div class="db2-kpi-fill" style="background:#f59e0b;width:55%"></div></div>
+              </div>
+            </div>
+            <div class="db2-card">
+              <div class="db2-inner-tabs">
+                <div class="db2-inner-tab act"><i class="fas fa-chart-bar"></i>Comparativa</div>
+                <div class="db2-inner-tab"><i class="fas fa-chart-line"></i>Evolución</div>
+                <div class="db2-inner-tab"><i class="fas fa-map-marker-alt"></i>Por zona</div>
+                <div class="db2-inner-tab"><i class="fas fa-user-tie"></i>Por promotor</div>
+                <div class="db2-inner-tab"><i class="fas fa-store"></i>Por comercio</div>
+                <div class="db2-inner-tab"><i class="fas fa-list"></i>Detalle</div>
+              </div>
+              <div class="db2-card-body">
+                <div style="font-size:12px;font-weight:700;color:#374151;margin-bottom:14px;">
+                  Precio promedio USD — nuestro vs. competidor directo
+                  <span style="font-size:10px;color:#9ca3af;font-weight:400;margin-left:8px;">Solo productos con competencia vinculada</span>
+                </div>
+                <div style="position:relative;height:220px;">
+                  <canvas id="db2ChartPrecios"></canvas>
+                </div>
+              </div>
+              <div class="db2-tbl-wrap" style="margin:0 14px 14px;">
+                <table class="db2-tbl">
+                  <thead><tr>
+                    <th>Comercio</th><th>Estado</th><th>Producto nuestro</th>
+                    <th style="text-align:center;color:#4f46e5;">USD Nuestro</th>
+                    <th>Competidor</th>
+                    <th style="text-align:center;color:#f43f5e;">USD Comp.</th>
+                    <th style="text-align:center;">&#916;%</th>
+                  </tr></thead>
+                  <tbody>
+                    <tr><td class="hi">Supermercado Central</td><td>Zulia</td><td>Premium 500g</td><td style="text-align:center;font-weight:700;color:#4f46e5;">$3.47</td><td>Comp 450g</td><td style="text-align:center;font-weight:700;color:#f43f5e;">$3.06</td><td style="text-align:center;" class="db2-neg">+12.4%</td></tr>
+                    <tr><td class="hi">Abasto El Rincón</td><td>Zulia</td><td>Económica 250g</td><td style="text-align:center;font-weight:700;color:#4f46e5;">$2.17</td><td>Comp 200g</td><td style="text-align:center;font-weight:700;color:#f43f5e;">$2.50</td><td style="text-align:center;" class="db2-pos">−13.2%</td></tr>
+                    <tr><td class="hi">Mega Mercado Norte</td><td>Miranda</td><td>Premium 500g</td><td style="text-align:center;font-weight:700;color:#4f46e5;">$3.47</td><td>Comp 450g</td><td style="text-align:center;font-weight:700;color:#f43f5e;">$3.33</td><td style="text-align:center;" class="db2-neg">+4.2%</td></tr>
+                    <tr><td class="hi">Distribuidora Vargas</td><td>Carabobo</td><td>Institucional 1kg</td><td style="text-align:center;font-weight:700;color:#4f46e5;">$6.11</td><td>Comp 900g</td><td style="text-align:center;font-weight:700;color:#f43f5e;">$5.69</td><td style="text-align:center;" class="db2-neg">+7.4%</td></tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
-    </div>
+
+      <!-- PANEL 2: CARAS DE ANAQUEL -->
+      <div class="db2-panel" id="db2p2">
+        <div class="db2-window reveal">
+          <div class="db2-titlebar">
+            <div class="db2-dots"><div class="db2-dot r"></div><div class="db2-dot y"></div><div class="db2-dot g"></div></div>
+            <div class="db2-titlebar-name">CAPTA — Caras en Anaquel</div>
+            <div class="db2-titlebar-url">capta.app/caras</div>
+          </div>
+          <div class="db2-nav">
+            <div class="db2-nav-logo">
+              <div class="db2-nav-icon"><i class="fas fa-bolt"></i></div>
+              <div><div class="db2-nav-brand">CAPTA</div><div class="db2-nav-co">Distribuidora Nacional</div></div>
+            </div>
+            <span class="db2-nav-link"><i class="fas fa-home"></i> Dashboard</span>
+            <span class="db2-nav-link act"><i class="fas fa-chart-pie"></i> Análisis ▾</span>
+            <div class="db2-linea-sel" style="margin-left:auto;"><i class="fas fa-layer-group" style="margin-right:4px;font-size:9px;"></i>Línea: Premium</div>
+          </div>
+          <div class="db2-body">
+            <div class="db2-page-hdr">
+              <div>
+                <div class="db2-page-title"><i class="fas fa-eye" style="color:#4f46e5;margin-right:8px;"></i>Caras en Anaquel</div>
+                <div class="db2-page-sub">Share of Shelf (SOS) — nuestras caras antes/después vs. total competencia</div>
+              </div>
+            </div>
+            <div style="display:grid;grid-template-columns:repeat(6,1fr);gap:10px;margin-bottom:14px;">
+              <div class="db2-kpi indigo" style="padding:12px;">
+                <div class="db2-kpi-icon" style="width:28px;height:28px;font-size:11px;margin-bottom:8px;"><i class="fas fa-eye"></i></div>
+                <div class="db2-kpi-val" style="font-size:17px;">38.4%</div>
+                <div class="db2-kpi-lbl">SOS Nuestro</div>
+                <div class="db2-kpi-bar"><div class="db2-kpi-fill" style="background:#4f46e5;width:38%"></div></div>
+              </div>
+              <div class="db2-kpi rose" style="padding:12px;">
+                <div class="db2-kpi-icon" style="width:28px;height:28px;font-size:11px;margin-bottom:8px;"><i class="fas fa-eye"></i></div>
+                <div class="db2-kpi-val" style="font-size:17px;">61.6%</div>
+                <div class="db2-kpi-lbl">SOS Competencia</div>
+                <div class="db2-kpi-bar"><div class="db2-kpi-fill" style="background:#f43f5e;width:62%"></div></div>
+              </div>
+              <div class="db2-kpi green" style="padding:12px;">
+                <div class="db2-kpi-icon" style="width:28px;height:28px;font-size:11px;margin-bottom:8px;"><i class="fas fa-check"></i></div>
+                <div class="db2-kpi-val" style="font-size:17px;">312</div>
+                <div class="db2-kpi-lbl">Nuestras después</div>
+              </div>
+              <div class="db2-kpi amber" style="padding:12px;">
+                <div class="db2-kpi-icon" style="width:28px;height:28px;font-size:11px;margin-bottom:8px;"><i class="fas fa-history"></i></div>
+                <div class="db2-kpi-val" style="font-size:17px;">268</div>
+                <div class="db2-kpi-lbl">Nuestras antes</div>
+              </div>
+              <div class="db2-kpi rose" style="padding:12px;">
+                <div class="db2-kpi-icon" style="width:28px;height:28px;font-size:11px;margin-bottom:8px;"><i class="fas fa-users"></i></div>
+                <div class="db2-kpi-val" style="font-size:17px;">498</div>
+                <div class="db2-kpi-lbl">Caras competencia</div>
+              </div>
+              <div class="db2-kpi green" style="padding:12px;">
+                <div class="db2-kpi-icon" style="width:28px;height:28px;font-size:11px;margin-bottom:8px;"><i class="fas fa-arrow-up"></i></div>
+                <div class="db2-kpi-val" style="font-size:17px;">+44</div>
+                <div class="db2-kpi-lbl">Cambio neto</div>
+              </div>
+            </div>
+            <div class="db2-two" style="margin-bottom:12px;">
+              <div class="db2-card">
+                <div class="db2-card-hdr">
+                  <div class="db2-card-title">SOS — Share of Shelf</div>
+                  <div class="db2-card-sub">Nuestras caras después vs. caras competencia</div>
+                </div>
+                <div class="db2-card-body" style="display:flex;justify-content:center;">
+                  <div style="position:relative;height:180px;width:180px;">
+                    <canvas id="db2ChartSOS"></canvas>
+                  </div>
+                </div>
+              </div>
+              <div class="db2-card">
+                <div class="db2-card-hdr">
+                  <div class="db2-card-title">Caras antes vs. después por producto</div>
+                  <div class="db2-card-sub">La ganancia neta muestra el impacto del promotor</div>
+                </div>
+                <div class="db2-card-body">
+                  <div style="position:relative;height:180px;">
+                    <canvas id="db2ChartCaras"></canvas>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="db2-card">
+              <div class="db2-card-hdr" style="padding-bottom:10px;">
+                <div class="db2-card-title">Detalle por producto</div>
+              </div>
+              <div class="db2-tbl-wrap" style="margin:0 14px 14px;">
+                <table class="db2-tbl">
+                  <thead><tr>
+                    <th>Producto</th>
+                    <th style="text-align:center;color:#f59e0b;">Antes</th>
+                    <th style="text-align:center;color:#10b981;">Después</th>
+                    <th style="text-align:center;">&#916;</th>
+                    <th>% del total</th>
+                  </tr></thead>
+                  <tbody>
+                    <tr>
+                      <td class="hi">Premium 500g</td>
+                      <td style="text-align:center;font-weight:700;color:#f59e0b;">98</td>
+                      <td style="text-align:center;font-weight:700;color:#10b981;">124</td>
+                      <td style="text-align:center;"><span style="display:inline-block;padding:2px 8px;border-radius:99px;font-size:10px;font-weight:700;background:rgba(16,185,129,.1);color:#10b981;">+26</span></td>
+                      <td><div style="display:flex;align-items:center;gap:6px;"><div style="flex:1;height:6px;background:#f0f2f8;border-radius:99px;overflow:hidden;"><div style="width:44%;height:100%;background:#4f46e5;border-radius:99px;"></div></div><span style="font-size:10px;font-weight:700;color:#4f46e5;">44.2%</span></div></td>
+                    </tr>
+                    <tr>
+                      <td class="hi">Económica 250g</td>
+                      <td style="text-align:center;font-weight:700;color:#f59e0b;">82</td>
+                      <td style="text-align:center;font-weight:700;color:#10b981;">97</td>
+                      <td style="text-align:center;"><span style="display:inline-block;padding:2px 8px;border-radius:99px;font-size:10px;font-weight:700;background:rgba(16,185,129,.1);color:#10b981;">+15</span></td>
+                      <td><div style="display:flex;align-items:center;gap:6px;"><div style="flex:1;height:6px;background:#f0f2f8;border-radius:99px;overflow:hidden;"><div style="width:31%;height:100%;background:#4f46e5;border-radius:99px;"></div></div><span style="font-size:10px;font-weight:700;color:#4f46e5;">31.1%</span></div></td>
+                    </tr>
+                    <tr>
+                      <td class="hi">Institucional 1kg</td>
+                      <td style="text-align:center;font-weight:700;color:#f59e0b;">88</td>
+                      <td style="text-align:center;font-weight:700;color:#10b981;">91</td>
+                      <td style="text-align:center;"><span style="display:inline-block;padding:2px 8px;border-radius:99px;font-size:10px;font-weight:700;background:rgba(16,185,129,.1);color:#10b981;">+3</span></td>
+                      <td><div style="display:flex;align-items:center;gap:6px;"><div style="flex:1;height:6px;background:#f0f2f8;border-radius:99px;overflow:hidden;"><div style="width:29%;height:100%;background:#4f46e5;border-radius:99px;"></div></div><span style="font-size:10px;font-weight:700;color:#4f46e5;">29.2%</span></div></td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- PANEL 3: ESPACIOS ADICIONALES -->
+      <div class="db2-panel" id="db2p3">
+        <div class="db2-window reveal">
+          <div class="db2-titlebar">
+            <div class="db2-dots"><div class="db2-dot r"></div><div class="db2-dot y"></div><div class="db2-dot g"></div></div>
+            <div class="db2-titlebar-name">CAPTA — Espacios Adicionales</div>
+            <div class="db2-titlebar-url">capta.app/espacios_adicionales</div>
+          </div>
+          <div class="db2-nav">
+            <div class="db2-nav-logo">
+              <div class="db2-nav-icon"><i class="fas fa-bolt"></i></div>
+              <div><div class="db2-nav-brand">CAPTA</div><div class="db2-nav-co">Distribuidora Nacional</div></div>
+            </div>
+            <span class="db2-nav-link"><i class="fas fa-home"></i> Dashboard</span>
+            <span class="db2-nav-link act"><i class="fas fa-chart-pie"></i> Análisis ▾</span>
+            <div class="db2-linea-sel" style="margin-left:auto;"><i class="fas fa-layer-group" style="margin-right:4px;font-size:9px;"></i>Todas las líneas</div>
+          </div>
+          <div class="db2-body">
+            <div class="db2-page-hdr">
+              <div>
+                <div class="db2-page-title"><i class="fas fa-store" style="color:#8b5cf6;margin-right:8px;"></i>Espacios Adicionales</div>
+                <div class="db2-page-sub">Torres, cabezales, paletas y exhibiciones por punto de venta</div>
+              </div>
+            </div>
+            <div class="db2-kpi-grid" style="margin-bottom:14px;">
+              <div class="db2-kpi purple">
+                <div class="db2-kpi-icon"><i class="fas fa-store"></i></div>
+                <div class="db2-kpi-val">34</div>
+                <div class="db2-kpi-lbl">Espacios activos</div>
+                <div class="db2-kpi-bar"><div class="db2-kpi-fill" style="background:#8b5cf6;width:85%"></div></div>
+              </div>
+              <div class="db2-kpi green">
+                <div class="db2-kpi-icon"><i class="fas fa-plus-circle"></i></div>
+                <div class="db2-kpi-val">+8</div>
+                <div class="db2-kpi-lbl">Ganados este mes</div>
+                <div class="db2-kpi-bar"><div class="db2-kpi-fill" style="background:#10b981;width:60%"></div></div>
+              </div>
+              <div class="db2-kpi rose">
+                <div class="db2-kpi-icon"><i class="fas fa-minus-circle"></i></div>
+                <div class="db2-kpi-val">3</div>
+                <div class="db2-kpi-lbl">Perdidos este mes</div>
+                <div class="db2-kpi-bar"><div class="db2-kpi-fill" style="background:#f43f5e;width:20%"></div></div>
+              </div>
+              <div class="db2-kpi amber">
+                <div class="db2-kpi-icon"><i class="fas fa-map-marker-alt"></i></div>
+                <div class="db2-kpi-val">19</div>
+                <div class="db2-kpi-lbl">PDVs con espacio</div>
+                <div class="db2-kpi-bar"><div class="db2-kpi-fill" style="background:#f59e0b;width:55%"></div></div>
+              </div>
+            </div>
+            <div class="db2-two" style="margin-bottom:12px;">
+              <div class="db2-card">
+                <div class="db2-card-hdr" style="padding-bottom:12px;">
+                  <div class="db2-card-title">Por tipo de espacio</div>
+                </div>
+                <div class="db2-card-body">
+                  <div class="db2-pct-row"><span class="db2-pct-label">🗼 Torres</span><div class="db2-pct-track"><div class="db2-pct-fill" style="background:#4f46e5;width:71%;"></div></div><span class="db2-pct-val">12</span></div>
+                  <div class="db2-pct-row"><span class="db2-pct-label">📐 Cabezales</span><div class="db2-pct-track"><div class="db2-pct-fill" style="background:#8b5cf6;width:59%;"></div></div><span class="db2-pct-val">10</span></div>
+                  <div class="db2-pct-row"><span class="db2-pct-label">🪵 Paletas</span><div class="db2-pct-track"><div class="db2-pct-fill" style="background:#a78bfa;width:41%;"></div></div><span class="db2-pct-val">7</span></div>
+                  <div class="db2-pct-row"><span class="db2-pct-label">🏪 Exhibiciones</span><div class="db2-pct-track"><div class="db2-pct-fill" style="background:#c4b5fd;width:29%;"></div></div><span class="db2-pct-val">5</span></div>
+                </div>
+              </div>
+              <div class="db2-card">
+                <div class="db2-card-hdr" style="padding-bottom:12px;">
+                  <div class="db2-card-title">Historial reciente</div>
+                </div>
+                <div class="db2-card-body">
+                  <div class="db2-timeline">
+                    <div class="db2-tl-row"><div class="db2-tl-dot" style="background:#10b981;"></div><div class="db2-tl-body"><strong>Torre ganada</strong> — Supermercado Central · Premium 500g<span class="db2-tl-date">Hoy, 10:32am · Carlos Méndez</span></div></div>
+                    <div class="db2-tl-row"><div class="db2-tl-dot" style="background:#10b981;"></div><div class="db2-tl-body"><strong>Cabezal ganado</strong> — Mega Mercado Norte · Premium + Económica<span class="db2-tl-date">Ayer, 3:15pm · Ana Torres</span></div></div>
+                    <div class="db2-tl-row"><div class="db2-tl-dot" style="background:#f43f5e;"></div><div class="db2-tl-body"><strong>Paleta inactiva</strong> — Abasto El Rincón · Económica 1kg<span class="db2-tl-date">Hace 2 días · José Ramos</span></div></div>
+                    <div class="db2-tl-row"><div class="db2-tl-dot" style="background:#10b981;"></div><div class="db2-tl-body"><strong>Exhibición ganada</strong> — Distribuidora Vargas · Institucional 1kg<span class="db2-tl-date">Hace 3 días · Luisa Paz</span></div></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="db2-card">
+              <div class="db2-card-hdr" style="padding-bottom:10px;">
+                <div class="db2-card-title">Mapa de espacios por PDV</div>
+              </div>
+              <div class="db2-tbl-wrap" style="margin:0 14px 14px;">
+                <table class="db2-tbl">
+                  <thead><tr><th>PDV</th><th>Estado</th><th style="text-align:center;">🗼</th><th style="text-align:center;">📐</th><th style="text-align:center;">🪵</th><th style="text-align:center;">🏪</th><th style="text-align:center;">Total</th></tr></thead>
+                  <tbody>
+                    <tr><td class="hi">Supermercado Central</td><td><span class="db2-bdg db2-bdg-acc">Zulia</span></td><td style="text-align:center;">2</td><td style="text-align:center;">1</td><td style="text-align:center;">1</td><td style="text-align:center;">0</td><td style="text-align:center;font-weight:800;">4</td></tr>
+                    <tr><td class="hi">Mega Mercado Norte</td><td><span class="db2-bdg" style="background:rgba(139,92,246,.1);color:#8b5cf6;border-color:rgba(139,92,246,.2);">Miranda</span></td><td style="text-align:center;">1</td><td style="text-align:center;">2</td><td style="text-align:center;">0</td><td style="text-align:center;">1</td><td style="text-align:center;font-weight:800;">4</td></tr>
+                    <tr><td class="hi">Distribuidora Vargas</td><td><span class="db2-bdg db2-bdg-warn">Carabobo</span></td><td style="text-align:center;">0</td><td style="text-align:center;">1</td><td style="text-align:center;">1</td><td style="text-align:center;">2</td><td style="text-align:center;font-weight:800;">4</td></tr>
+                    <tr><td class="hi">Tienda La Esquina</td><td><span class="db2-bdg db2-bdg-acc">Zulia</span></td><td style="text-align:center;">2</td><td style="text-align:center;">0</td><td style="text-align:center;">0</td><td style="text-align:center;">1</td><td style="text-align:center;font-weight:800;">3</td></tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- PANEL 4: GPS -->
+      <div class="db2-panel" id="db2p4">
+        <div class="db2-window reveal">
+          <div class="db2-titlebar">
+            <div class="db2-dots"><div class="db2-dot r"></div><div class="db2-dot y"></div><div class="db2-dot g"></div></div>
+            <div class="db2-titlebar-name">CAPTA — Seguimiento GPS</div>
+            <div class="db2-titlebar-url">capta.app/gps</div>
+          </div>
+          <div class="db2-nav">
+            <div class="db2-nav-logo">
+              <div class="db2-nav-icon"><i class="fas fa-bolt"></i></div>
+              <div><div class="db2-nav-brand">CAPTA</div><div class="db2-nav-co">Distribuidora Nacional</div></div>
+            </div>
+            <span class="db2-nav-link"><i class="fas fa-home"></i> Dashboard</span>
+            <span class="db2-nav-link"><i class="fas fa-chart-pie"></i> Análisis ▾</span>
+            <span class="db2-nav-link act"><i class="fas fa-map-marked-alt"></i> GPS</span>
+            <div class="db2-linea-sel" style="margin-left:auto;"><i class="fas fa-layer-group" style="margin-right:4px;font-size:9px;"></i>Todas las líneas</div>
+          </div>
+          <div class="db2-body">
+            <div class="db2-page-hdr">
+              <div>
+                <div class="db2-page-title"><i class="fas fa-map-marker-alt" style="color:#4f46e5;margin-right:8px;"></i>Seguimiento GPS</div>
+                <div class="db2-page-sub">Rutas, tiempos y análisis de eficiencia por promotor</div>
+              </div>
+              <div style="display:flex;gap:6px;align-items:center;"><div class="db2-live"></div><span style="font-size:10px;color:#10b981;font-weight:600;">Hoy · 30/04/2026</span></div>
+            </div>
+
+            <!-- KPIs -->
+            <div class="db2-kpi-grid" style="margin-bottom:14px;">
+              <div class="db2-kpi indigo">
+                <div class="db2-kpi-icon"><i class="fas fa-route"></i></div>
+                <div class="db2-kpi-val">94</div>
+                <div class="db2-kpi-lbl">Visitas totales</div>
+                <div class="db2-kpi-bar"><div class="db2-kpi-fill" style="background:#4f46e5;width:75%"></div></div>
+              </div>
+              <div class="db2-kpi green">
+                <div class="db2-kpi-icon"><i class="fas fa-check-circle"></i></div>
+                <div class="db2-kpi-val">82 (87%)</div>
+                <div class="db2-kpi-lbl">Confirmadas GPS</div>
+                <div class="db2-kpi-bar"><div class="db2-kpi-fill" style="background:#10b981;width:87%"></div></div>
+              </div>
+              <div class="db2-kpi amber">
+                <div class="db2-kpi-icon"><i class="fas fa-clock"></i></div>
+                <div class="db2-kpi-val">22 min</div>
+                <div class="db2-kpi-lbl">Tiempo prom. en local</div>
+                <div class="db2-kpi-bar"><div class="db2-kpi-fill" style="background:#f59e0b;width:55%"></div></div>
+              </div>
+              <div class="db2-kpi rose">
+                <div class="db2-kpi-icon"><i class="fas fa-triangle-exclamation"></i></div>
+                <div class="db2-kpi-val">4</div>
+                <div class="db2-kpi-lbl">Visitas sospechosas</div>
+                <div class="db2-kpi-bar"><div class="db2-kpi-fill" style="background:#f43f5e;width:12%"></div></div>
+              </div>
+            </div>
+
+            <div class="db2-two" style="margin-bottom:12px;">
+              <!-- Mapa simulado -->
+              <div class="db2-card" style="grid-column:1/-1;">
+                <div class="db2-inner-tabs">
+                  <div class="db2-inner-tab act"><i class="fas fa-map"></i>Mapa de visitas</div>
+                  <div class="db2-inner-tab"><i class="fas fa-route"></i>Ruta por promotor</div>
+                  <div class="db2-inner-tab"><i class="fas fa-clock"></i>Análisis de tiempos</div>
+                  <div class="db2-inner-tab"><i class="fas fa-chart-bar"></i>Eficiencia</div>
+                  <div class="db2-inner-tab"><i class="fas fa-list"></i>Detalle</div>
+                </div>
+                <div class="db2-card-body">
+                  <!-- Fake map -->
+                  <div style="position:relative;background:#e8edf2;border-radius:12px;height:220px;overflow:hidden;margin-bottom:12px;">
+                    <!-- Mapa base simulado con SVG -->
+                    <svg viewBox="0 0 600 220" style="width:100%;height:100%;" preserveAspectRatio="xMidYMid slice">
+                      <!-- Calles -->
+                      <rect width="600" height="220" fill="#e8edf2"/>
+                      <line x1="0" y1="110" x2="600" y2="110" stroke="#fff" stroke-width="8" opacity="0.6"/>
+                      <line x1="150" y1="0" x2="150" y2="220" stroke="#fff" stroke-width="6" opacity="0.5"/>
+                      <line x1="350" y1="0" x2="350" y2="220" stroke="#fff" stroke-width="6" opacity="0.5"/>
+                      <line x1="0" y1="60" x2="600" y2="60" stroke="#fff" stroke-width="4" opacity="0.4"/>
+                      <line x1="0" y1="160" x2="600" y2="160" stroke="#fff" stroke-width="4" opacity="0.4"/>
+                      <line x1="80" y1="0" x2="80" y2="220" stroke="#fff" stroke-width="3" opacity="0.3"/>
+                      <line x1="250" y1="0" x2="250" y2="220" stroke="#fff" stroke-width="3" opacity="0.3"/>
+                      <line x1="480" y1="0" x2="480" y2="220" stroke="#fff" stroke-width="3" opacity="0.3"/>
+                      <!-- Bloques de edificios -->
+                      <rect x="20" y="20" width="50" height="30" rx="3" fill="#d1d9e0" opacity="0.8"/>
+                      <rect x="170" y="20" width="60" height="30" rx="3" fill="#d1d9e0" opacity="0.8"/>
+                      <rect x="370" y="20" width="70" height="30" rx="3" fill="#d1d9e0" opacity="0.8"/>
+                      <rect x="20" y="75" width="40" height="25" rx="3" fill="#d1d9e0" opacity="0.8"/>
+                      <rect x="170" y="75" width="55" height="25" rx="3" fill="#d1d9e0" opacity="0.8"/>
+                      <rect x="370" y="75" width="80" height="25" rx="3" fill="#d1d9e0" opacity="0.8"/>
+                      <rect x="20" y="130" width="50" height="20" rx="3" fill="#d1d9e0" opacity="0.8"/>
+                      <rect x="170" y="130" width="60" height="20" rx="3" fill="#d1d9e0" opacity="0.8"/>
+                      <rect x="370" y="130" width="90" height="20" rx="3" fill="#d1d9e0" opacity="0.8"/>
+                      <rect x="20" y="175" width="40" height="30" rx="3" fill="#d1d9e0" opacity="0.8"/>
+                      <rect x="170" y="175" width="55" height="30" rx="3" fill="#d1d9e0" opacity="0.8"/>
+                      <rect x="370" y="175" width="70" height="30" rx="3" fill="#d1d9e0" opacity="0.8"/>
+                      <!-- Ruta punteada promotor -->
+                      <polyline points="60,155 120,105 200,85 310,100 390,60 490,90 545,130" fill="none" stroke="#4f46e5" stroke-width="2.5" stroke-dasharray="8,4" opacity="0.7"/>
+                      <!-- Pins confirmados (verde) -->
+                      <circle cx="60" cy="155" r="7" fill="#10b981" stroke="white" stroke-width="2"/>
+                      <circle cx="120" cy="105" r="7" fill="#10b981" stroke="white" stroke-width="2"/>
+                      <circle cx="200" cy="85" r="7" fill="#10b981" stroke="white" stroke-width="2"/>
+                      <circle cx="310" cy="100" r="7" fill="#10b981" stroke="white" stroke-width="2"/>
+                      <circle cx="390" cy="60" r="7" fill="#10b981" stroke="white" stroke-width="2"/>
+                      <!-- Pin no confirmado (rojo) -->
+                      <circle cx="490" cy="90" r="7" fill="#ef4444" stroke="white" stroke-width="2"/>
+                      <!-- Pin sospechoso (morado) -->
+                      <circle cx="545" cy="130" r="7" fill="#8b5cf6" stroke="white" stroke-width="2"/>
+                      <!-- Pin sin coord naranja -->
+                      <circle cx="270" cy="170" r="6" fill="#f59e0b" stroke="white" stroke-width="2"/>
+                      <circle cx="440" cy="155" r="6" fill="#10b981" stroke="white" stroke-width="2"/>
+                      <!-- Leyenda -->
+                      <rect x="10" y="10" width="180" height="46" rx="6" fill="white" opacity="0.92"/>
+                      <circle cx="24" cy="24" r="5" fill="#10b981"/>
+                      <text x="34" y="28" font-size="9" fill="#374151" font-family="sans-serif">Confirmada</text>
+                      <circle cx="24" cy="39" r="5" fill="#ef4444"/>
+                      <text x="34" y="43" font-size="9" fill="#374151" font-family="sans-serif">No confirmada</text>
+                      <circle cx="100" cy="24" r="5" fill="#f59e0b"/>
+                      <text x="110" y="28" font-size="9" fill="#374151" font-family="sans-serif">Sin coord.</text>
+                      <circle cx="100" cy="39" r="5" fill="#8b5cf6"/>
+                      <text x="110" y="43" font-size="9" fill="#374151" font-family="sans-serif">Sospechosa</text>
+                    </svg>
+                  </div>
+                  <!-- Leyenda leyenda y stats debajo del mapa -->
+                  <div style="display:flex;gap:12px;flex-wrap:wrap;">
+                    <div style="display:flex;align-items:center;gap:5px;font-size:11px;color:#4b5563;"><span style="width:10px;height:10px;border-radius:50%;background:#10b981;display:inline-block;"></span>82 confirmadas</div>
+                    <div style="display:flex;align-items:center;gap:5px;font-size:11px;color:#4b5563;"><span style="width:10px;height:10px;border-radius:50%;background:#ef4444;display:inline-block;"></span>8 no confirmadas</div>
+                    <div style="display:flex;align-items:center;gap:5px;font-size:11px;color:#4b5563;"><span style="width:10px;height:10px;border-radius:50%;background:#f59e0b;display:inline-block;"></span>4 sin coord. cliente</div>
+                    <div style="display:flex;align-items:center;gap:5px;font-size:11px;color:#4b5563;"><span style="width:10px;height:10px;border-radius:50%;background:#8b5cf6;display:inline-block;"></span>4 sospechosas (&lt;3 min en local)</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Eficiencia por promotor -->
+            <div class="db2-card" style="margin-bottom:12px;">
+              <div class="db2-card-hdr" style="padding-bottom:12px;">
+                <div class="db2-card-title"><i class="fas fa-chart-bar" style="color:#4f46e5;margin-right:6px;font-size:11px;"></i>Eficiencia por promotor</div>
+                <div class="db2-card-sub">Resumen de jornada, confirmación GPS y alertas de comportamiento</div>
+              </div>
+              <div class="db2-card-body" style="display:grid;grid-template-columns:repeat(2,1fr);gap:10px;">
+                <div style="background:#f8f9fb;border:1px solid rgba(0,0,0,.06);border-radius:10px;overflow:hidden;">
+                  <div style="padding:10px 12px;background:rgba(79,70,229,.07);border-bottom:1px solid rgba(79,70,229,.1);">
+                    <div style="font-size:12px;font-weight:700;color:#4f46e5;">Carlos Méndez</div>
+                    <div style="font-size:10px;color:#9ca3af;">28 visitas · 7:54am → 5:12pm</div>
+                  </div>
+                  <div style="padding:10px 12px;display:flex;flex-direction:column;gap:6px;">
+                    <div style="display:flex;justify-content:space-between;font-size:11px;"><span style="color:#6b7280;">Confirmación GPS</span><span style="font-weight:700;color:#10b981;">96% (27/28)</span></div>
+                    <div style="display:flex;justify-content:space-between;font-size:11px;"><span style="color:#6b7280;">⏱ Tiempo en local</span><span style="font-weight:600;color:#f59e0b;">28 min prom.</span></div>
+                    <div style="display:flex;justify-content:space-between;font-size:11px;"><span style="color:#6b7280;">🚗 Viaje promedio</span><span style="font-weight:600;color:#3b82f6;">12 min</span></div>
+                    <div style="display:flex;justify-content:space-between;font-size:11px;"><span style="color:#6b7280;">Duración jornada</span><span style="font-weight:600;color:#374151;">9h 18min</span></div>
+                  </div>
+                </div>
+                <div style="background:#f8f9fb;border:1px solid rgba(0,0,0,.06);border-radius:10px;overflow:hidden;">
+                  <div style="padding:10px 12px;background:rgba(79,70,229,.07);border-bottom:1px solid rgba(79,70,229,.1);">
+                    <div style="font-size:12px;font-weight:700;color:#4f46e5;">Ana Torres</div>
+                    <div style="font-size:10px;color:#9ca3af;">24 visitas · 8:10am → 4:45pm</div>
+                  </div>
+                  <div style="padding:10px 12px;display:flex;flex-direction:column;gap:6px;">
+                    <div style="display:flex;justify-content:space-between;font-size:11px;"><span style="color:#6b7280;">Confirmación GPS</span><span style="font-weight:700;color:#10b981;">83% (20/24)</span></div>
+                    <div style="display:flex;justify-content:space-between;font-size:11px;"><span style="color:#6b7280;">⏱ Tiempo en local</span><span style="font-weight:600;color:#f59e0b;">19 min prom.</span></div>
+                    <div style="display:flex;justify-content:space-between;font-size:11px;"><span style="color:#6b7280;">🚗 Viaje promedio</span><span style="font-weight:600;color:#3b82f6;">15 min</span></div>
+                    <div style="display:flex;justify-content:space-between;font-size:11px;"><span style="color:#6b7280;">Duración jornada</span><span style="font-weight:600;color:#374151;">8h 35min</span></div>
+                  </div>
+                </div>
+                <div style="background:#f8f9fb;border:1px solid rgba(0,0,0,.06);border-radius:10px;overflow:hidden;">
+                  <div style="padding:10px 12px;background:rgba(79,70,229,.07);border-bottom:1px solid rgba(79,70,229,.1);">
+                    <div style="font-size:12px;font-weight:700;color:#4f46e5;">Luisa Paz</div>
+                    <div style="font-size:10px;color:#9ca3af;">21 visitas · 8:30am → 4:20pm</div>
+                  </div>
+                  <div style="padding:10px 12px;display:flex;flex-direction:column;gap:6px;">
+                    <div style="display:flex;justify-content:space-between;font-size:11px;"><span style="color:#6b7280;">Confirmación GPS</span><span style="font-weight:700;color:#f59e0b;">76% (16/21)</span></div>
+                    <div style="display:flex;justify-content:space-between;font-size:11px;"><span style="color:#6b7280;">⏱ Tiempo en local</span><span style="font-weight:600;color:#f59e0b;">24 min prom.</span></div>
+                    <div style="display:flex;justify-content:space-between;font-size:11px;"><span style="color:#6b7280;">🚗 Viaje promedio</span><span style="font-weight:600;color:#3b82f6;">18 min</span></div>
+                    <div style="display:flex;justify-content:space-between;font-size:11px;"><span style="color:#6b7280;">Sospechosas</span><span style="font-weight:700;color:#8b5cf6;">⚠ 2</span></div>
+                  </div>
+                </div>
+                <div style="background:#f8f9fb;border:1px solid rgba(0,0,0,.06);border-radius:10px;overflow:hidden;">
+                  <div style="padding:10px 12px;background:rgba(79,70,229,.07);border-bottom:1px solid rgba(79,70,229,.1);">
+                    <div style="font-size:12px;font-weight:700;color:#4f46e5;">José Ramos</div>
+                    <div style="font-size:10px;color:#9ca3af;">11 visitas · 9:05am → 2:30pm</div>
+                  </div>
+                  <div style="padding:10px 12px;display:flex;flex-direction:column;gap:6px;">
+                    <div style="display:flex;justify-content:space-between;font-size:11px;"><span style="color:#6b7280;">Confirmación GPS</span><span style="font-weight:700;color:#f43f5e;">64% (7/11)</span></div>
+                    <div style="display:flex;justify-content:space-between;font-size:11px;"><span style="color:#6b7280;">⏱ Tiempo en local</span><span style="font-weight:600;color:#f43f5e;">6 min prom.</span></div>
+                    <div style="display:flex;justify-content:space-between;font-size:11px;"><span style="color:#6b7280;">Sospechosas</span><span style="font-weight:700;color:#8b5cf6;">⚠ 2 visitas</span></div>
+                    <div style="padding-top:4px;"><span style="display:inline-block;font-size:9px;font-weight:700;padding:2px 8px;border-radius:99px;background:rgba(244,63,94,.1);color:#f43f5e;border:1px solid rgba(244,63,94,.2);">Tiempo muy corto</span></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Tabla detalle -->
+            <div class="db2-card">
+              <div class="db2-card-hdr" style="padding-bottom:10px;">
+                <div class="db2-card-title">Detalle de visitas</div>
+              </div>
+              <div class="db2-tbl-wrap" style="margin:0 14px 14px;">
+                <table class="db2-tbl">
+                  <thead><tr>
+                    <th>Fecha/Hora</th><th>Promotor</th><th>Comercio</th><th>Estado</th>
+                    <th style="text-align:center;">Dist.</th>
+                    <th style="text-align:center;color:#f59e0b;">⏱ En local</th>
+                    <th style="text-align:center;color:#3b82f6;">🚗 Viaje</th>
+                    <th style="text-align:center;">GPS</th>
+                  </tr></thead>
+                  <tbody>
+                    <tr><td>30/04 10:32</td><td class="hi">C. Méndez</td><td class="hi">Supermercado Central</td><td>Zulia</td><td style="text-align:center;font-size:10px;">48m</td><td style="text-align:center;font-weight:700;color:#f59e0b;">31 min</td><td style="text-align:center;font-size:10px;color:#3b82f6;">9 min</td><td style="text-align:center;"><span class="db2-bdg db2-bdg-ok"><i class="fas fa-check-circle"></i> Conf.</span></td></tr>
+                    <tr><td>30/04 11:18</td><td class="hi">A. Torres</td><td class="hi">Mega Mercado Norte</td><td>Miranda</td><td style="text-align:center;font-size:10px;">92m</td><td style="text-align:center;font-weight:700;color:#f59e0b;">22 min</td><td style="text-align:center;font-size:10px;color:#3b82f6;">14 min</td><td style="text-align:center;"><span class="db2-bdg db2-bdg-ok"><i class="fas fa-check-circle"></i> Conf.</span></td></tr>
+                    <tr><td>30/04 12:05</td><td class="hi">J. Ramos</td><td class="hi">Abasto El Rincón</td><td>Zulia</td><td style="text-align:center;font-size:10px;">214m</td><td style="text-align:center;font-weight:700;color:#f43f5e;">4 min</td><td style="text-align:center;font-size:10px;color:#3b82f6;">8 min</td><td style="text-align:center;"><span class="db2-bdg db2-bdg-warn"><i class="fas fa-times-circle"></i> No conf.</span></td></tr>
+                    <tr><td>30/04 14:47</td><td class="hi">L. Paz</td><td class="hi">Tienda La Esquina</td><td>Zulia</td><td style="text-align:center;font-size:10px;">67m</td><td style="text-align:center;font-weight:700;color:#f59e0b;">26 min</td><td style="text-align:center;font-size:10px;color:#3b82f6;">11 min</td><td style="text-align:center;"><span class="db2-bdg db2-bdg-ok"><i class="fas fa-check-circle"></i> Conf.</span></td></tr>
+                    <tr><td>30/04 09:14</td><td class="hi">J. Ramos</td><td class="hi">Distribuidora Vargas</td><td>Carabobo</td><td style="text-align:center;font-size:10px;">—</td><td style="text-align:center;font-weight:700;color:#f43f5e;">2 min</td><td style="text-align:center;font-size:10px;color:#3b82f6;">—</td><td style="text-align:center;"><span class="db2-bdg" style="background:rgba(139,92,246,.1);color:#8b5cf6;border-color:rgba(139,92,246,.2);">⚠ Sospechosa</span></td></tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- PANEL 5: STOCK -->
+      <div class="db2-panel" id="db2p5">
+        <div class="db2-window reveal">
+          <div class="db2-titlebar">
+            <div class="db2-dots"><div class="db2-dot r"></div><div class="db2-dot y"></div><div class="db2-dot g"></div></div>
+            <div class="db2-titlebar-name">CAPTA — Control de Stock</div>
+            <div class="db2-titlebar-url">capta.app/stock</div>
+          </div>
+          <div class="db2-nav">
+            <div class="db2-nav-logo">
+              <div class="db2-nav-icon"><i class="fas fa-bolt"></i></div>
+              <div><div class="db2-nav-brand">CAPTA</div><div class="db2-nav-co">Distribuidora Nacional</div></div>
+            </div>
+            <span class="db2-nav-link"><i class="fas fa-home"></i> Dashboard</span>
+            <span class="db2-nav-link"><i class="fas fa-chart-pie"></i> Análisis ▾</span>
+            <span class="db2-nav-link act"><i class="fas fa-boxes"></i> Stock</span>
+            <div class="db2-linea-sel" style="margin-left:auto;"><i class="fas fa-layer-group" style="margin-right:4px;font-size:9px;"></i>Línea: Premium</div>
+          </div>
+          <div class="db2-body">
+            <div class="db2-page-hdr">
+              <div>
+                <div class="db2-page-title"><i class="fas fa-boxes-stacked" style="color:#f59e0b;margin-right:8px;"></i>Control de Stock</div>
+                <div class="db2-page-sub">Análisis de inventario, frecuencia de quiebres y predicción de desabastecimiento</div>
+              </div>
+              <button class="db2-filter-btn" style="background:#f59e0b;"><i class="fas fa-sliders"></i> Umbrales por producto</button>
+            </div>
+
+            <!-- KPIs -->
+            <div class="db2-kpi-grid" style="margin-bottom:14px;">
+              <div class="db2-kpi amber">
+                <div class="db2-kpi-icon"><i class="fas fa-store"></i></div>
+                <div class="db2-kpi-val">18</div>
+                <div class="db2-kpi-lbl">Anaquel crítico</div>
+                <div class="db2-kpi-bar"><div class="db2-kpi-fill" style="background:#f59e0b;width:42%"></div></div>
+              </div>
+              <div class="db2-kpi rose">
+                <div class="db2-kpi-icon"><i class="fas fa-warehouse"></i></div>
+                <div class="db2-kpi-val">11</div>
+                <div class="db2-kpi-lbl">Bodega baja</div>
+                <div class="db2-kpi-bar"><div class="db2-kpi-fill" style="background:#f43f5e;width:26%"></div></div>
+              </div>
+              <div class="db2-kpi rose">
+                <div class="db2-kpi-icon"><i class="fas fa-bell"></i></div>
+                <div class="db2-kpi-val">6</div>
+                <div class="db2-kpi-lbl">Alertas urgentes (&lt;7 días)</div>
+                <div class="db2-kpi-bar"><div class="db2-kpi-fill" style="background:#f43f5e;width:15%"></div></div>
+              </div>
+              <div class="db2-kpi indigo">
+                <div class="db2-kpi-icon"><i class="fas fa-clipboard-list"></i></div>
+                <div class="db2-kpi-val">312</div>
+                <div class="db2-kpi-lbl">Registros analizados</div>
+                <div class="db2-kpi-bar"><div class="db2-kpi-fill" style="background:#4f46e5;width:78%"></div></div>
+              </div>
+            </div>
+
+            <!-- Tabs + Alertas -->
+            <div class="db2-card" style="margin-bottom:12px;">
+              <div class="db2-inner-tabs">
+                <div class="db2-inner-tab act"><i class="fas fa-bell"></i>Alertas prioritarias</div>
+                <div class="db2-inner-tab"><i class="fas fa-store"></i>Por comercio</div>
+                <div class="db2-inner-tab"><i class="fas fa-box"></i>Por producto</div>
+                <div class="db2-inner-tab"><i class="fas fa-chart-line"></i>Tendencia de stock</div>
+                <div class="db2-inner-tab"><i class="fas fa-list"></i>Detalle por visita</div>
+              </div>
+              <div class="db2-card-body">
+                <div style="font-size:12px;font-weight:700;color:#374151;margin-bottom:4px;">Comercios con mayor riesgo de desabastecimiento</div>
+                <div style="font-size:10px;color:#9ca3af;margin-bottom:14px;">Ordenados por urgencia — basado en frecuencia de quiebres y tendencia de caída de stock</div>
+                <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:10px;">
+                  <!-- Alerta ALTA -->
+                  <div style="border-radius:12px;padding:14px;background:#fef2f2;border-left:4px solid #ef4444;border-top:1px solid rgba(239,68,68,.15);border-right:1px solid rgba(239,68,68,.15);border-bottom:1px solid rgba(239,68,68,.15);">
+                    <div style="display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:8px;">
+                      <span style="font-size:16px;">🔴</span>
+                      <span style="font-size:9px;font-weight:800;padding:2px 8px;border-radius:99px;background:rgba(239,68,68,.1);color:#ef4444;border:1px solid rgba(239,68,68,.2);">URGENTE</span>
+                    </div>
+                    <div style="font-size:12px;font-weight:700;color:#111827;">Abasto El Rincón</div>
+                    <div style="font-size:10px;color:#4f46e5;font-weight:600;margin-top:2px;">Económica 250g</div>
+                    <div style="font-size:10px;color:#6b7280;margin-top:2px;">Zulia Sur</div>
+                    <div style="margin-top:10px;padding-top:10px;border-top:1px solid rgba(0,0,0,.06);display:flex;flex-direction:column;gap:4px;">
+                      <div style="display:flex;justify-content:space-between;font-size:10px;"><span style="color:#6b7280;">Stock actual</span><span style="font-weight:700;color:#111827;">2 unid.</span></div>
+                      <div style="display:flex;justify-content:space-between;font-size:10px;"><span style="color:#6b7280;">Tendencia</span><span style="font-weight:600;color:#ef4444;">↓ −1.2 unid/visita</span></div>
+                      <div style="display:flex;justify-content:space-between;font-size:10px;"><span style="color:#6b7280;">Predicción</span><span style="font-weight:700;color:#ef4444;">~4 días para quiebre</span></div>
+                      <div style="display:flex;justify-content:space-between;font-size:10px;"><span style="color:#6b7280;">Quiebres</span><span style="font-weight:700;color:#ef4444;">5</span></div>
+                    </div>
+                  </div>
+                  <!-- Alerta MEDIA -->
+                  <div style="border-radius:12px;padding:14px;background:#fffbeb;border-left:4px solid #f59e0b;border-top:1px solid rgba(245,158,11,.15);border-right:1px solid rgba(245,158,11,.15);border-bottom:1px solid rgba(245,158,11,.15);">
+                    <div style="display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:8px;">
+                      <span style="font-size:16px;">🟡</span>
+                      <span style="font-size:9px;font-weight:800;padding:2px 8px;border-radius:99px;background:rgba(245,158,11,.1);color:#f59e0b;border:1px solid rgba(245,158,11,.2);">ATENCIÓN</span>
+                    </div>
+                    <div style="font-size:12px;font-weight:700;color:#111827;">Tienda La Esquina</div>
+                    <div style="font-size:10px;color:#4f46e5;font-weight:600;margin-top:2px;">Premium 500g</div>
+                    <div style="font-size:10px;color:#6b7280;margin-top:2px;">Zulia Norte</div>
+                    <div style="margin-top:10px;padding-top:10px;border-top:1px solid rgba(0,0,0,.06);display:flex;flex-direction:column;gap:4px;">
+                      <div style="display:flex;justify-content:space-between;font-size:10px;"><span style="color:#6b7280;">Stock actual</span><span style="font-weight:700;color:#111827;">7 unid.</span></div>
+                      <div style="display:flex;justify-content:space-between;font-size:10px;"><span style="color:#6b7280;">Tendencia</span><span style="font-weight:600;color:#f59e0b;">↓ −0.8 unid/visita</span></div>
+                      <div style="display:flex;justify-content:space-between;font-size:10px;"><span style="color:#6b7280;">Predicción</span><span style="font-weight:700;color:#f59e0b;">~14 días</span></div>
+                      <div style="display:flex;justify-content:space-between;font-size:10px;"><span style="color:#6b7280;">Quiebres</span><span style="font-weight:700;color:#f59e0b;">2</span></div>
+                    </div>
+                  </div>
+                  <!-- Alerta BAJA -->
+                  <div style="border-radius:12px;padding:14px;background:#f0fdf4;border-left:4px solid #10b981;border-top:1px solid rgba(16,185,129,.15);border-right:1px solid rgba(16,185,129,.15);border-bottom:1px solid rgba(16,185,129,.15);">
+                    <div style="display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:8px;">
+                      <span style="font-size:16px;">🟢</span>
+                      <span style="font-size:9px;font-weight:800;padding:2px 8px;border-radius:99px;background:rgba(16,185,129,.1);color:#10b981;border:1px solid rgba(16,185,129,.2);">OK</span>
+                    </div>
+                    <div style="font-size:12px;font-weight:700;color:#111827;">Supermercado Central</div>
+                    <div style="font-size:10px;color:#4f46e5;font-weight:600;margin-top:2px;">Institucional 1kg</div>
+                    <div style="font-size:10px;color:#6b7280;margin-top:2px;">Zulia Norte</div>
+                    <div style="margin-top:10px;padding-top:10px;border-top:1px solid rgba(0,0,0,.06);display:flex;flex-direction:column;gap:4px;">
+                      <div style="display:flex;justify-content:space-between;font-size:10px;"><span style="color:#6b7280;">Stock actual</span><span style="font-weight:700;color:#111827;">24 unid.</span></div>
+                      <div style="display:flex;justify-content:space-between;font-size:10px;"><span style="color:#6b7280;">Tendencia</span><span style="font-weight:600;color:#10b981;">→ Estable</span></div>
+                      <div style="display:flex;justify-content:space-between;font-size:10px;"><span style="color:#6b7280;">Predicción</span><span style="font-weight:700;color:#10b981;">~28 días</span></div>
+                      <div style="display:flex;justify-content:space-between;font-size:10px;"><span style="color:#6b7280;">Quiebres</span><span style="font-weight:700;color:#10b981;">0</span></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Tendencia de stock chart -->
+            <div class="db2-card">
+              <div class="db2-card-hdr" style="padding-bottom:10px;">
+                <div class="db2-card-title"><i class="fas fa-chart-line" style="color:#4f46e5;margin-right:6px;font-size:11px;"></i>Tendencia de stock — Abasto El Rincón · Económica 250g</div>
+                <div class="db2-card-sub">Línea sólida = stock real · Línea punteada = proyección basada en tendencia</div>
+              </div>
+              <!-- Predicción box -->
+              <div style="margin:0 14px 12px;padding:12px 14px;border-radius:10px;background:#fef2f2;border:1px solid rgba(239,68,68,.2);display:flex;align-items:flex-start;gap:10px;">
+                <span style="font-size:18px;flex-shrink:0;">🔴</span>
+                <div>
+                  <div style="font-size:12px;font-weight:700;color:#111827;margin-bottom:3px;">⚠️ Quiebre inminente</div>
+                  <div style="font-size:11px;color:#4b5563;line-height:1.5;">A este ritmo, <strong>Económica 250g</strong> en <strong>Abasto El Rincón</strong> se quedará sin stock en aproximadamente <strong>4 días</strong>. Se recomienda reabastecer de inmediato.</div>
+                </div>
+              </div>
+              <div class="db2-card-body">
+                <div style="position:relative;height:200px;">
+                  <canvas id="db2ChartStock"></canvas>
+                </div>
+              </div>
+
+              <!-- Tabla detalle por producto -->
+              <div class="db2-tbl-wrap" style="margin:0 14px 14px;">
+                <table class="db2-tbl">
+                  <thead><tr>
+                    <th>Fecha</th><th>Promotor</th><th>Comercio</th><th>Producto</th>
+                    <th style="text-align:center;color:#f59e0b;">Anaquel</th>
+                    <th style="text-align:center;color:#4f46e5;">Bodega</th>
+                    <th style="text-align:center;">Estado</th>
+                  </tr></thead>
+                  <tbody>
+                    <tr><td>30/04</td><td class="hi">J. Ramos</td><td class="hi">Abasto El Rincón</td><td>Económica 250g</td><td style="text-align:center;font-weight:800;color:#f43f5e;">2</td><td style="text-align:center;font-weight:700;color:#4f46e5;">8</td><td style="text-align:center;"><span class="db2-bdg db2-bdg-err">⚠ Crítico</span></td></tr>
+                    <tr><td>28/04</td><td class="hi">J. Ramos</td><td class="hi">Abasto El Rincón</td><td>Económica 250g</td><td style="text-align:center;font-weight:700;color:#f59e0b;">4</td><td style="text-align:center;font-weight:700;color:#4f46e5;">12</td><td style="text-align:center;"><span class="db2-bdg db2-bdg-warn">Bajo</span></td></tr>
+                    <tr><td>25/04</td><td class="hi">C. Méndez</td><td class="hi">Supermercado Central</td><td>Premium 500g</td><td style="text-align:center;font-weight:700;color:#10b981;">18</td><td style="text-align:center;font-weight:700;color:#4f46e5;">32</td><td style="text-align:center;"><span class="db2-bdg db2-bdg-ok">Normal</span></td></tr>
+                    <tr><td>25/04</td><td class="hi">A. Torres</td><td class="hi">Mega Mercado Norte</td><td>Institucional 1kg</td><td style="text-align:center;font-weight:700;color:#10b981;">24</td><td style="text-align:center;font-weight:700;color:#4f46e5;">41</td><td style="text-align:center;"><span class="db2-bdg db2-bdg-ok">Normal</span></td></tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div><!-- /db2-section -->
 
     <script>
-      (function() {
-        var track = document.getElementById('dashCTrack');
-        if (!track) return;
-        var slides = Array.from(track.children);
-        var dotsHost = document.getElementById('dashCDots');
-        var prevBtn = document.getElementById('dashCPrev');
-        var nextBtn = document.getElementById('dashCNext');
-        var current = 0;
-        slides.forEach(function(_, i) {
-          var d = document.createElement('button');
-          d.className = 'dash-c-pdot' + (i === 0 ? ' active' : '');
-          d.setAttribute('aria-label', 'Ir al panel ' + (i + 1));
-          d.addEventListener('click', function() { go(i); });
-          dotsHost.appendChild(d);
+      function switchDb2(idx, btn) {
+        document.querySelectorAll('.db2-tab').forEach(function(t,i){ t.classList.toggle('active', i===idx); });
+        document.querySelectorAll('.db2-panel').forEach(function(p,i){ p.classList.toggle('active', i===idx); });
+        if (idx===1 && !window._db2c1) { initDb2P1(); window._db2c1=true; }
+        if (idx===2 && !window._db2c2) { initDb2P2(); window._db2c2=true; }
+        if (idx===5 && !window._db2c5) { initDb2P5(); window._db2c5=true; }
+      }
+
+      function initDb2P1() {
+        var ctx = document.getElementById('db2ChartPrecios');
+        if (!ctx || typeof Chart==='undefined') return;
+        new Chart(ctx.getContext('2d'), {
+          type:'bar',
+          data:{
+            labels:['Premium 500g','Económica 250g','Institucional 1kg'],
+            datasets:[
+              {label:'Nuestro (USD)', data:[3.47,2.17,6.11], backgroundColor:'rgba(79,70,229,.8)', borderRadius:5, borderSkipped:false},
+              {label:'Competidor (USD)', data:[3.06,2.50,5.69], backgroundColor:'rgba(244,63,94,.7)', borderRadius:5, borderSkipped:false}
+            ]
+          },
+          options:{
+            responsive:true, maintainAspectRatio:false,
+            plugins:{legend:{labels:{color:'#6b7280',font:{size:11},boxWidth:12}}},
+            scales:{
+              x:{ticks:{color:'#6b7280',font:{size:10}},grid:{color:'rgba(0,0,0,.05)'}},
+              y:{ticks:{color:'#6b7280',font:{size:10},callback:function(v){return '$'+v.toFixed(2);}},grid:{color:'rgba(0,0,0,.05)'}}
+            }
+          }
         });
-        function go(idx) {
-          current = (idx + slides.length) % slides.length;
-          slides.forEach(function(s, i) { s.classList.toggle('active', i === current); });
-          dotsHost.querySelectorAll('.dash-c-pdot').forEach(function(d, i) { d.classList.toggle('active', i === current); });
-          // center on active slide
-          var first = slides[0];
-          var firstRect = first.getBoundingClientRect();
-          var slideW = firstRect.width;
-          var gap = 28;
-          var viewport = track.parentElement;
-          var viewportW = viewport.clientWidth;
-          var offset = current * (slideW + gap) - (viewportW - slideW) / 2;
-          if (offset < 0) offset = 0;
-          var maxOffset = (slides.length - 1) * (slideW + gap) - (viewportW - slideW) / 2;
-          if (offset > maxOffset) offset = maxOffset;
-          if (maxOffset < 0) offset = 0;
-          track.style.transform = 'translateX(' + (-offset) + 'px)';
+      }
+
+      function initDb2P2() {
+        var ctxSOS = document.getElementById('db2ChartSOS');
+        if (ctxSOS && typeof Chart!=='undefined') {
+          new Chart(ctxSOS.getContext('2d'), {
+            type:'doughnut',
+            data:{
+              labels:['Nuestras caras','Caras competencia'],
+              datasets:[{data:[312,498],backgroundColor:['rgba(79,70,229,.85)','rgba(244,63,94,.7)'],borderWidth:0}]
+            },
+            options:{
+              responsive:true, maintainAspectRatio:false, cutout:'65%',
+              plugins:{
+                legend:{position:'bottom',labels:{color:'#6b7280',font:{size:10},padding:10,boxWidth:10}},
+                tooltip:{callbacks:{label:function(c){var t=810;return ' '+c.label+': '+c.parsed+' ('+((c.parsed/t)*100).toFixed(1)+'%)';}}}
+              }
+            }
+          });
         }
-        prevBtn.addEventListener('click', function() { go(current - 1); });
-        nextBtn.addEventListener('click', function() { go(current + 1); });
-        // init
-        slides[0].classList.add('active');
-        window.addEventListener('resize', function() { go(current); });
-        // small delay so layout settles
-        setTimeout(function() { go(0); }, 50);
-      })();
+        var ctxC = document.getElementById('db2ChartCaras');
+        if (ctxC && typeof Chart!=='undefined') {
+          new Chart(ctxC.getContext('2d'), {
+            type:'bar',
+            data:{
+              labels:['Premium 500g','Económica 250g','Institucional 1kg'],
+              datasets:[
+                {label:'Antes',data:[98,82,88],backgroundColor:'rgba(245,158,11,.7)',borderRadius:4,borderSkipped:false},
+                {label:'Después',data:[124,97,91],backgroundColor:'rgba(79,70,229,.8)',borderRadius:4,borderSkipped:false}
+              ]
+            },
+            options:{
+              responsive:true, maintainAspectRatio:false,
+              plugins:{legend:{labels:{color:'#6b7280',font:{size:10},boxWidth:10}}},
+              scales:{
+                x:{ticks:{color:'#6b7280',font:{size:9}},grid:{color:'rgba(0,0,0,.05)'}},
+                y:{ticks:{color:'#6b7280',font:{size:10}},grid:{color:'rgba(0,0,0,.05)'}}
+              }
+            }
+          });
+        }
+      }
+      function initDb2P5() {
+        var ctx = document.getElementById('db2ChartStock');
+        if (!ctx || typeof Chart==='undefined') return;
+        var labels = ['08/04','12/04','16/04','20/04','24/04','28/04','30/04','02/05','04/05','06/05','08/05'];
+        var real   = [18, 15, 14, 11, 9, 6, 4, 2, null, null, null];
+        var proy   = [null, null, null, null, null, null, 4, 2, 0.8, 0, null];
+        var umbral = Array(labels.length).fill(3);
+        new Chart(ctx.getContext('2d'), {
+          type:'line',
+          data:{
+            labels:labels,
+            datasets:[
+              {label:'Stock real (anaquel)', data:real, borderColor:'#4f46e5', backgroundColor:'rgba(79,70,229,.1)', tension:.3, pointRadius:5, pointBackgroundColor:'#4f46e5', fill:true, spanGaps:false},
+              {label:'Proyección', data:proy, borderColor:'rgba(239,68,68,.8)', backgroundColor:'transparent', tension:.3, pointRadius:4, pointBackgroundColor:'rgba(239,68,68,.8)', borderDash:[6,4], spanGaps:false},
+              {label:'Umbral alerta (3)', data:umbral, borderColor:'rgba(245,158,11,.7)', backgroundColor:'transparent', borderDash:[3,3], pointRadius:0, borderWidth:2}
+            ]
+          },
+          options:{
+            responsive:true, maintainAspectRatio:false,
+            plugins:{legend:{display:true,position:'top',labels:{color:'#6b7280',font:{size:10},boxWidth:12}}},
+            scales:{
+              x:{ticks:{color:'#6b7280',font:{size:9}},grid:{color:'rgba(0,0,0,.05)'}},
+              y:{min:0,ticks:{color:'#6b7280',font:{size:10},callback:function(v){return v+' u.';}},grid:{color:'rgba(0,0,0,.05)'}}
+            }
+          }
+        });
+      }
     </script>
   </section>
 
@@ -2296,7 +2873,6 @@
       .pricing-v2-grid {
         display: grid;
         grid-template-columns: repeat(4, 1fr);
-        padding-top: 18px;
         gap: 20px;
         max-width: 1200px;
         margin: 0 auto;
@@ -2314,13 +2890,18 @@
       .pv2-card.popular {
         border-color: var(--indigo-600);
         box-shadow: 0 8px 32px rgba(79,70,229,.18);
-        overflow: visible;
       }
       .pv2-card.custom {
         border-color: var(--gray-200);
         background: var(--indigo-950);
       }
-      .pv2-badge { position:absolute; top:-14px; left:50%; transform:translateX(-50%); background:var(--indigo-600); color:#fff; font-size:11px; font-weight:700; letter-spacing:1.5px; text-transform:uppercase; padding:6px 16px; border-radius:100px; white-space:nowrap; box-shadow:0 4px 12px rgba(79,70,229,.35); z-index: 2; }
+      .pv2-badge {
+        position: absolute; top: -13px; left: 50%; transform: translateX(-50%);
+        background: var(--indigo-600); color: #fff;
+        font-size: 10px; font-weight: 800; padding: 4px 14px;
+        border-radius: 100px; white-space: nowrap; letter-spacing: .5px;
+        text-transform: uppercase;
+      }
       .pv2-tier {
         display: inline-flex; align-items: center; gap: 6px;
         font-size: 10px; font-weight: 800; padding: 4px 12px;
